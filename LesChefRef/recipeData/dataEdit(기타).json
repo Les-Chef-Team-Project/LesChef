@@ -1,0 +1,33 @@
+[
+    {
+        "일련번호": "108",
+        "메뉴명": "오렌지와 당근 만남주스",
+        "재료정보": "당근 100g(1/2개), 오렌지 100g(1/2개)",
+        "요리종류": "기타",
+        
+        "나트륨": "76",
+        "단백질": "1",
+        "지방": "0",
+        "탄수화물": "14",
+        "열량": "60",
+
+        "이미지경로(대)": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00108_1.png",
+        "이미지경로(소)": "http://www.foodsafetykorea.go.kr/uploadimg/cook/10_00108_1.png",
+        
+        "만드는법_이미지_01": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_1.jpg",
+        "만드는법_이미지_02": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_2.jpg",
+        "만드는법_이미지_03": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_3.jpg",
+        "만드는법_이미지_04": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_4.jpg",
+        "만드는법_이미지_05": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_5.jpg",
+        "만드는법_이미지_06": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00108_6.jpg",
+        
+        "만드는법_01": "1. 오렌지는 깨끗이 씻어 껍질을 벗긴다.",
+        "만드는법_02": "2. 당근은 깨끗이 씻어 작은 토막으로 썬다.",
+        "만드는법_03": "3. 당근, 오렌지, 물(50ml)을 믹서에 곱게 간다.",
+        "만드는법_04": "4. 믹서에 갈아낸 주스는 고운 체로 거른다.",
+        "만드는법_05": "5. 주스를 살얼음이 생길 만큼 시원하게 냉동한다.",
+        "만드는법_06": "6. 컵에 담아 마무리한다.",
+
+        "저감 조리법 TIP": "시판되는 대부분의 주스는 가공되고 농축되는 과정에서 나트륨이 첨가되는 경우가 있어 과일, 채소를 직접 갈아 마시면 나트륨 섭취를 줄일 수 있어요."
+    }
+]

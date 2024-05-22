@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="receiveData()">다운로드</button>
+
+    <script>
+        function receiveData(){
+            fetch("http://openapi.foodsafetykorea.go.kr/api/5248fa0bc62041699780/COOKRCP01/json/1001/2000")
+            .then(response => response.json())
+            .then(data => {
+                const jsonStr = JSON.stringify(data, null, 2);
+                const blob = new Blob([jsonStr], {type: 'application/json'});
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'data.json';
+                link.click();
+            }).catch(error => console.error('Error: ', error));
+        }
+    </script>
+</body>
+</html>
