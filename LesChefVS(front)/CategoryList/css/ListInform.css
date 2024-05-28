@@ -97,40 +97,103 @@ justify-content: center;
   left: 480px;
 }
 
-/* 선 밑 부분 */
+/* 선 부분 */
 
 #descript{
   font-family: 'kopub';
   font-weight: 900px;
   position:relative;
-  top: 800px;
+  top: 770px;
   right: 450px;
   font-size: 50px;  
 }
-#gridcontainer{
-  /* border:1px solid  black;
-  position: relative; 
-  top:850px;
-  width:924px;
-  height: auto;
-  left: 480px; */
-  display: grid;
-  width:924px;
-  padding: 850px 480px;
 
+
+/* 레시피 설명문 그리드 css*/
+
+.containerwap{
+  padding: 840px 480px 0px 480px; 
 }
 
-
-/* 레시피 설명문 */
-
-#descript{
+.gridcontainer{
   display: grid;
-  width:924px;
-  grid-template-rows: repeat(1,430px);
-  grid-template-columns: repeat(2,430px);
+  grid-template-columns: 400px 90.5px 433.5px ;
+  grid-template-rows: repeat(2, 50px 350px) ;
 }
+/* script 전체 적용 css */
 .script{
   font-family: 'kopub';
   font-weight: 900;
   font-size: 30px;
+}
+/* script 부분 적용 css */
+.script2{
+  grid-column-start: 2;
+  
+}
+.script3{
+  font-family: 'kopub';
+  font-weight: 900;
+padding-top: 15px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 20px;
+  border-top: 1px solid #b8b8b8;
+}
+.script4{
+  grid-column-start: 3;
+  justify-self: end; 
+}
+.script5{
+  grid-row-start: 3;
+  align-content: end;
+}
+.script6{
+  font-family: 'kopub';
+  font-weight: 900;
+padding-top: 15px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 20px;
+  border-top: 1px solid #b8b8b8;
+}
+
+/* 댓글 및 평점 기능 */
+
+/* 전체 평점 */
+#total{
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 30px;
+  margin-left: 480px;
+  width: 924px;
+  height: 90px;
+  border-top: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+}
+.totalimg{ 
+  position: relative;
+  top:0px;
+  padding-left: 150px;
+  padding-right: 30px;
+
+}
+.totalnumber{
+  font-family: 'sans';
+  font-weight: 900;
+  font-size: 40px;
+}
+.totalnumber1{  
+  padding-left: 80px;
+}
+.totalnumber2{
+  color:#4d4d4d
+}
+
+/* 댓글 */
+#comentbox{
+  border: 1px solid black;
+  width:924px;
+  height: 500px;
+  margin: 30px 480px;
 }
