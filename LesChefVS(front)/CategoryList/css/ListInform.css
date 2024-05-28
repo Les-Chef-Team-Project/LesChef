@@ -1,0 +1,136 @@
+/* 메인 사진 윗 부분 css */
+
+#sort{
+  font-family: 'kopub';
+  font-weight: 700;
+  position: relative;
+  top:235px;
+  left: 550px;
+  font-size: 20px;
+  color: #999999;
+}
+#title{
+  font-family: 'kopub';
+  font-weight: 900;
+  position: relative;
+  top:240px;
+  left: 530px;
+  font-size: 40px;
+}
+#mainimg{
+  position: absolute;
+  top:350px;
+  left: 480px;
+  width: 924px;
+  height: 572px;
+}
+
+#eye{
+  position: relative;
+  top: 256px;
+  left: 1085px;
+}
+#eyenum{
+  font-family: 'sans';
+  font-weight: 900;
+  color: #999999;
+  position:relative;
+  top: 208px;
+  left: 1330px;
+  width:150px;
+}
+
+/* 메인 사진 옆 사이드 바 css */
+
+#cell{
+  position:relative;
+  top:230px;
+  left: 1450px;
+  border: 0px solid black;
+  border-radius: 20px;
+  background-color: #E6E6E6;
+  width: 304px;
+  height: auto;
+  max-height: 941px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  overflow: auto;
+}
+#cell > span {
+  font-size: 30px;
+  font-family: 'kopub';
+  font-weight: 900;
+}
+#cell > p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-family: 'kopub';
+  font-weight: 900;
+  padding-left: 10px; 
+}
+
+/* 메인 사진 아랫부분 */
+.allicon{
+position: relative;
+top: 650px;
+display: flex;
+justify-content: center;
+
+}
+.selecticon{
+  padding-left: 50px;
+  text-align: center;
+  
+}
+.selecticon span{
+  font-family: 'sans';
+  font-weight: 900;
+  font-size: 15px;
+  color: #999999;
+}
+#line1{
+  position: relative;
+  top: 700px;
+  width:924px;
+  left: 480px;
+}
+
+/* 선 밑 부분 */
+
+#descript{
+  font-family: 'kopub';
+  font-weight: 900px;
+  position:relative;
+  top: 800px;
+  right: 450px;
+  font-size: 50px;  
+}
+#gridcontainer{
+  /* border:1px solid  black;
+  position: relative; 
+  top:850px;
+  width:924px;
+  height: auto;
+  left: 480px; */
+  display: grid;
+  width:924px;
+  padding: 850px 480px;
+
+}
+
+
+/* 레시피 설명문 */
+
+#descript{
+  display: grid;
+  width:924px;
+  grid-template-rows: repeat(1,430px);
+  grid-template-columns: repeat(2,430px);
+}
+.script{
+  font-family: 'kopub';
+  font-weight: 900;
+  font-size: 30px;
+}
