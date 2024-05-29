@@ -1,0 +1,101 @@
+body{
+  background-color:#FFE3D2;
+}
+button{
+  cursor: pointer;
+}
+.gesiContent{
+  margin-left:40px;
+  width:650px;
+  height: 500px;;
+  resize: none;
+  border:0;
+}
+
+.regiTopImg{
+  background-image: url("../img/bibimbabscreen.jpg");
+  background-repeat: no-repeat;
+  width:auto;
+  height:180px;
+  text-align: center;
+  position: relative;
+}
+.regiTopImg span{
+  position : inherit;
+  top:18%;
+  font-size:60px;
+  font-weight: bold;
+}
+.BeforePage{
+  margin-left:400px;
+}
+.regi{
+  font-size:40px;
+  font-weight: bold;
+  text-align: center;
+}
+.writeBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:555px;
+  border-radius: 50px;
+  border: 0px;
+  width: 200px;
+  height: 55px;
+  background-color: #F8A16E;
+  font-size:23px;
+  font-weight: bold;
+  margin-left:1290px;
+}
+.writeBtn span{
+  padding-left:20px;
+}
+.writeBtn img{
+  width:50px;
+  height:55px;
+}
+ 
+.registBox{
+  display: flex;
+  justify-content: center;
+  width:1100px;
+  height: 500px;
+  border:1px solid #000;
+  background-color:#F8A16E;
+  margin: 20px 0 50px 400px;
+  padding:20px 0;
+}
+
+.registTitle{
+  font-size:25px;
+  font-weight: bold;
+  margin:7px 0px;
+}
+.titleName{
+  width:300px;
+  height: 25px;
+  border:0;
+  resize:none;
+  border:1px solid #000;
+}
+.subTitleName{
+  width:300px;
+  height: 70px;
+  border:0;
+  resize:none;
+  border:1px solid #000;
+}
+
+.click_Img{
+  width:300px;
+  height:300px;
+  border-radius:30px;
+  border:1px solid #000;
+  cursor: pointer;
+}
+
+#toggleImage{
+  
+  background-color:#fff;
+}
