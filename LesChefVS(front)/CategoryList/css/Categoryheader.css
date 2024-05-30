@@ -4,6 +4,11 @@
   padding: 0px;
 }
 
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
 /* 헤더 css */
 header{
   min-width: 1920px;
@@ -48,5 +53,10 @@ header{
   cursor: pointer;
 }
 #logo{
-  padding-left: 20px;
+  padding-left: 85px;
 }
+.categorybox:hover{
+  border-bottom: 1px solid #fff;
+
+}
+

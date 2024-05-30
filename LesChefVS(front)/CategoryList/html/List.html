@@ -21,7 +21,11 @@
     <!-- 빨간 가로바 텍스트 -->
     <div id="categoryback">
       <div class="name">
-        <span>한식</span><span >일식</span><span>중식</span><span>양식</span><span>공유 레시피</span>
+        <a href="#"><div><span class="categorybox">한식</span></div></a>
+        <a href="#"><div><span class="categorybox">일식</span></div></a>
+        <a href="#"><div><span class="categorybox" >중식</span></div></a>
+        <a href="#"><div><span class="categorybox">양식</span></div></a>
+        <a href="#"><div><span class="categorybox">공유</span></div></a>
       </div>
     </div>
   </header>
@@ -33,14 +37,20 @@
 
 <!-- 세부 카테고리 텍스트 및 버튼  -->
   <div id="decategory">
-    <span class="subcategory">전체보기 </span><span class="subcategory">국물류 </span>
-    <span class="subcategory">볶음류 </span><span class="subcategory">튀김류 </span><span class="subcategory">기타</span>
-    <button class="listbutton">최신순</button> <button class="listbutton">조회순</button>
+    <span class="subcategory" style=" color:black">전체보기 </span>
+    <span class="subcategory">국물류 </span>
+    <span class="subcategory">볶음류 </span>
+    <span class="subcategory">튀김류 </span>
+    <span class="subcategory">기타</span>
+
+    <button class="listbutton">최신순</button> 
+    <button class="listbutton">조회순</button>
   </div>
-  <div>
+
+  <form action="" method="" >
   <img id="search" src="../레시피 아이콘/search.png" width="55px"/>
   <input id="searchtext"> </input>
-</div>
+</form>
 <!-- 리스트 목록 -->
   <div id="listwrap">
     <!-- ---------------------변수로 바꿀시 밑 부분제외, 이 부분 반복 뿌리기 -------------------------------------------------------- -->
@@ -113,5 +123,6 @@
     </div> 
   </div>
 </main>
+<script src="../js/List.js"></script>
 </body>
 </html>

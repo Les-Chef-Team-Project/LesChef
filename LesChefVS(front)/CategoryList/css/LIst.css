@@ -8,13 +8,17 @@
   overflow-x: hidden;
 }
 #ontext{
+  display: inline-block;
+  width:100%;
+  min-width: 1920px;
   font-family: 'kopub';
   font-weight: 900;
   position: absolute;
   z-index: 1;
-  top: 40%;
-  left: 40%;
-  font-size: 50px;
+  top: 50px;
+  left: 00px;
+  text-align: center;
+  font-size: 70px;
   color: #fff;
   text-shadow: 4px 2px 2px rgb(29, 29, 29);
 }
@@ -27,6 +31,7 @@
 }
 
 .subcategory{
+  color:#616161;
   font-family: 'inter';
   font-weight: 700;
   padding-left: 5%;
@@ -61,7 +66,7 @@
   width: 345px;
   height: 367px;
   display: inline-block;
-  margin: 25px;
+  margin: 0px 29.2px 25px ;
   margin-top: 0px;
   padding: 0px 0%;
 }
@@ -119,14 +124,15 @@ padding-right: 40px;
 #search{
   position:fixed;
   z-index: 1;
-  left: 1719px;
+  left: 1740px;
   top: 616px;
+  cursor: pointer;
 }
 #searchtext{
   display: none;
   position: fixed;
   z-index: 0;
-  left: 1265px;
+  left: 1280px;
   top: 618px;
   width: 500px;
   height: 43px;
