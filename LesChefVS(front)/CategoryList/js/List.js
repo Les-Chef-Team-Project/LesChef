@@ -37,3 +37,29 @@ categoryname.forEach((name, index) =>{
     })
   })
 })
+
+// 검색바 구현
+  // const textbar = document.querySelector('#search');
+  // const textarea = document.querySelector('#searchtext');
+  // textarea.style.display = "none";
+  //   textbar.addEventListener('click',()=>{
+  //     if('none' === textarea.style.display){
+  //       textarea.style.display = 'block';
+  //       textarea.classList.add('active');
+  //     }else{
+  //       textarea.style.display = 'none';        
+  //       textarea.classList.remove('active');
+  //     }
+  //   });
+  const textbar = document.querySelector('#search');
+  const textarea = document.querySelector('#searchtext');
+  // textarea.style.display = "none";
+    textbar.addEventListener('click',()=>{
+      if(!textarea.classList.contains('active')){
+        // textarea.style.display = 'block';
+        textarea.classList.add('active');
+      }else{
+        // textarea.style.display = 'none';        
+        textarea.classList.remove('active');
+      }
+    });
