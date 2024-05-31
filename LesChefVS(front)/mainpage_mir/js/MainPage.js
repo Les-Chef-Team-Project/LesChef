@@ -1,7 +1,6 @@
 let flag = false;
 
-window.addEventListener('wheel', pageMovement);
-window.addEventListener('scroll', detectBottom);
+
 /* 페이지 스크롤 관리 */
 function pageMovement(e){
   console.log(e.deltaY);  
@@ -20,9 +19,17 @@ function pageMovement(e){
 
   setTimeout(() => {
     flag = false;
-  }, 1500);
+  }, 650);
 }
 
+
+//테스트
+
+
+const loginButton = document.getElementById('loginButton');
+const myPageButton = document.getElementById('myPageButton');
+
+//테스트
 
 const leftLine = document.getElementById('left_box');
 const underLine = document.getElementById('under_box');
@@ -51,23 +58,41 @@ category.addEventListener('click', () => {
     underLine.style.opacity = 0;
     changeOpacity(phrase1, 0);
     changeOpacity(phrase2, 0);
-    removeItem();
+    loginButton.style.display = "none"; //
+    myPageButton.style.display = "none"; //
+    // removeItem();
     menuFlag = false;
   }
   else{
-    location.reload(true);
+    window.addEventListener('wheel', pageMovement);
+    // location.reload(true);
+    blockMenu.style.opacity = 0;
+    leftLine.style.opacity = 1;
+    underLine.style.opacity = 1;
+    loginButton.style.display = "flex"; //
+    myPageButton.style.display = "flex"; //
+    changeOpacity(phrase1, 1);
+    changeOpacity(phrase2, 1);
     menuFlag = true;
   }
 });
 
 /* 메뉴버튼 제거함수 */
-function removeItem() {
-  const items = menu.getElementsByTagName('li');
-  items[1].remove();
-  items[1].remove();
-  }
+// function removeItem() {
+//   const items = menu.getElementsByTagName('li');
+//   items[1].remove();
+//   items[1].remove();
+// }
 function changeOpacity(elements, value){
   elements.forEach(element =>{
     element.style.opacity = value;
   })
 }
+
+
+
+
+
+
+window.addEventListener('wheel', pageMovement);
+// window.addEventListener('scroll', detectBottom);

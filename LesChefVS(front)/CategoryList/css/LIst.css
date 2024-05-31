@@ -129,15 +129,21 @@ padding-right: 40px;
   cursor: pointer;
 }
 #searchtext{
-  display: none;
+
   position: fixed;
   z-index: 0;
-  left: 1280px;
-  top: 618px;
-  width: 500px;
+  left: 1755px;
+  top: 619px;
+  width: 0px ;
   height: 43px;
   border-radius: 40px;
   border-color: #001B11;
   border: 2px solid;
-  padding:2px
+  padding:2px 0px 0px 15px;
+  font-size: 18px;
+  transition: all 1s;
+}
+#searchtext.active{
+  width: 500px;
+  left: 1274px;
 }

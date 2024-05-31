@@ -25,6 +25,7 @@ header{
 }
 #board{
   padding-top: 50px;
+  opacity: 0;
 }
 #icon2{
   padding-top: 45px;
