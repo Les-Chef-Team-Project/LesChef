@@ -27,6 +27,7 @@ button{
 }
 .BeforePage{
   margin-left:400px;
+  cursor: pointer;
 }
 /*===============================================================*/
 /*게시글 제목 ~ 이전, 다음페이지버튼*/
@@ -149,7 +150,7 @@ textarea{
   border: 0px;
   /* width: 140px; */
   height: 45px;
-  background: #ff8a45;
+  background: #fb8268;
   
 }
 .commentWriteBtn:active{
@@ -180,10 +181,8 @@ textarea{
 }
 .commentInput{
   width: 769px;
-  border: none;
   font-size: 20px;
   color: #fff;
-  border-bottom: 1px solid #fff;
   background-color: #FEBEB0;
 
 
@@ -219,6 +218,9 @@ textarea{
 .commentText{
   color:#000000;
   font-size:19px;
+  word-break: break-all;
+  white-space: normal;
+  /*댓글창 숫자, 영어 길어지면 줄바꿈*/
 }
 .addReplyBtn{    display: flex;
     justify-content: space-evenly;

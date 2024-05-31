@@ -75,20 +75,13 @@ textarea{
 }
 
 .registTitle{
-  font-size:25px;
+  font-size: 25px;
   font-weight: bold;
-  margin:7px 0px;
+  margin: 30px 0 50px;
 }
 .titleName{
   width:300px;
   height: 20px;
-  border:0;
-  resize:none;
-  border:1px solid #000;
-}
-.subTitleName{
-  width:300px;
-  height: 70px;
   border:0;
   resize:none;
   border:1px solid #000;
