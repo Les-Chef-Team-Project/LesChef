@@ -186,6 +186,11 @@ textarea{
   border-bottom: 1px solid #fff;
   background-color: #FEBEB0;
 
+
+  /*테스트*/
+  border: 1px solid black;
+  margin-top: 40px;
+
 }
 .commentInput:focus{
   outline:none;
@@ -206,6 +211,7 @@ textarea{
 .commentWriterName{
   font-weight: bold;
   color: #654321;
+  cursor: pointer;
 }
 .commentDate{
   color:gray;
@@ -256,4 +262,37 @@ textarea{
 /*답글 버튼 클릭 시 block*/
 .reply{
   display:none;
+}
+
+
+/*해시태그*/
+
+.commentInputContainer{
+  position: relative;
+}
+
+#hashTag{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: auto;
+  height: 30px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: #fcd4f2;
+}
+
+#closeTag{
+  width:10px;
+  height: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#nameTag{
+  margin-right: 10px;
 }

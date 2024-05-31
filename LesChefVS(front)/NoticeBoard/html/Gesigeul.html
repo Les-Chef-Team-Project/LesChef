@@ -71,8 +71,9 @@
     <div class="commentBox">
       <!--댓글 내용 전송-->
       <form onsubmit = "addComment(event)">
-        <div>
-          <input type="text" placeholder="댓글을 입력해주세요" class="commentInput" size="105">
+        <div class="commentInputContainer">
+          <div id="hashTag"><b><div id="nameTag"></div></b><img id="closeTag" src="../img/cancel.png"/></div>
+          <textarea type="text" placeholder="댓글을 입력해주세요" class="commentInput" size="105"></textarea>
         </div>
         <!--전송 버튼 commentWriteBtn=flex-->
         <button type="submit" class="commentWriteBtn">
@@ -82,7 +83,28 @@
       </form>
       <!--댓글 목록 comment,,commentContent=flex-->
       <div class="commentRepeat">
-        
+        <div>
+          <div class="comment">
+            <img src="../img/fubao.jpg" class="commentWriterImg">
+              <div class="commentContent">
+              <p>
+                <span class="commentWriterName">푸바오</span>
+                <span class="commentDate">${date}</span>
+              </p>
+              <p class="commentText">${commentText}</p>
+          </div>
+        </div>
+        <div>
+          <div class="comment">
+            <img src="../img/fubao.jpg" class="commentWriterImg">
+              <div class="commentContent">
+              <p>
+                <span class="commentWriterName">gkgkgkasd</span>
+                <span class="commentDate">${date}</span>
+              </p>
+              <p class="commentText">${commentText}</p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
