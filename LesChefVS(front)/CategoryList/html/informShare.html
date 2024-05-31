@@ -21,7 +21,11 @@
     <!-- 빨간 가로바 텍스트 -->
     <div id="categoryback">
       <div class="name">
-        <span>한식</span><span >일식</span><span>중식</span><span>양식</span><span>공유 레시피</span>
+        <a href="#"><div><span class="categorybox">한식</span></div></a>
+        <a href="#"><div><span class="categorybox">일식</span></div></a>
+        <a href="#"><div><span class="categorybox" >중식</span></div></a>
+        <a href="#"><div><span class="categorybox">양식</span></div></a>
+        <a href="#"><div><span class="categorybox">공유</span></div></a>
       </div>
     </div>
   </header>
@@ -44,7 +48,7 @@
   
   <div class="aside">
     <img id="asideicon1" src="../레시피 아이콘/댓글.png" width="60px">
-    <img id="asideicon2" src="../레시피 아이콘/하트.png" width="60px">
+    <img id="asideicon2" src="../레시피 아이콘/하트100.png" width="60px">
   </div>
 
 <!-- 메인 사진 아랫 부분 -->
@@ -111,6 +115,8 @@
     </div>
     <span class="totalnumber totalnumber2">평점 4.5</span>
   </div>
+
+  
   <!-- 댓글 조회 -->
   <div id="comentcontainer">
     <div class="comentbox">
@@ -122,6 +128,9 @@
       </div>
       <span class="comenttext">뭐라써야할까 난 잘 몰르겠넹 아 집 가고 싶아</span><hr width="700px">
     </div>
+
+
+
     <!-- 반복시 연습 용 -->
     <div class="comentbox">
       <div class="coment">
@@ -144,13 +153,21 @@
   </div>
 
   <!-- 댓글 작성 -->
+  <form action="#" method="#" >
   <div id="reviewcontainer">
     <span id="review">후기 작성</span>
     <div id="starcontainer">
-      <img class="countingstar" src="../레시피 아이콘/사용자별.png"/><img class="countingstar" src="../레시피 아이콘/사용자별.png"/><img class="countingstar" src="../레시피 아이콘/사용자별.png"/><img class="countingstar" src="../레시피 아이콘/사용자반별.png"/><img class="countingstar" src="../레시피 아이콘/사용자빈별.png"/> <button id="resist">write</button>
+      <img class="countingstar" star="1" src="../레시피 아이콘/사용자별.png"/>
+      <img class="countingstar" star="2" src="../레시피 아이콘/사용자빈별.png"/>
+      <img class="countingstar" star="3" src="../레시피 아이콘/사용자빈별.png"/>
+      <img class="countingstar" star="4" src="../레시피 아이콘/사용자빈별.png"/>
+      <img class="countingstar" star="5" src="../레시피 아이콘/사용자빈별.png"/> 
+      <button id="resist">write</button>
     </div>
     <textarea id="areasize"></textarea>
   </div>
+</form>
 </main>
+<script src="../js/inform.js"></script>
 </body>
 </html>
