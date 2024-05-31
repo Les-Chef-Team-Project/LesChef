@@ -6,7 +6,7 @@
 body {
   display: flex;
   align-items: center;
-  background-image: url('/img/mypage.png');
+  background-image: url('../img/mypage.png');
   background-repeat: no-repeat;
   background-clip: border-box;
   background-size: cover;
