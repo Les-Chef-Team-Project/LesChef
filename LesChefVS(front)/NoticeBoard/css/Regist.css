@@ -1,21 +1,28 @@
 body{
-  background-color:#FFE3D2;
+  background-color:#B3DEE5;
 }
 button{
   cursor: pointer;
+}
+textarea{
+  border-radius:5px;  
+  font-family: "gmarket";
+}
+.logoBackGround{
+  background-color:#31525B;
 }
 .gesiContent{
   margin-left:40px;
   width:650px;
   height: 500px;;
   resize: none;
-  border:0;
+  border:1px solid #000;
 }
 
 .regiTopImg{
-  background-image: url("../img/bibimbabscreen.jpg");
+  background-image: url("../img/orange.jpg");
   background-repeat: no-repeat;
-  width:auto;
+  background-size: cover;
   height:180px;
   text-align: center;
   position: relative;
@@ -43,7 +50,7 @@ button{
   border: 0px;
   width: 200px;
   height: 55px;
-  background-color: #F8A16E;
+  background-color: #FFA101;
   font-size:23px;
   font-weight: bold;
   margin-left:1290px;
@@ -62,7 +69,7 @@ button{
   width:1100px;
   height: 500px;
   border:1px solid #000;
-  background-color:#F8A16E;
+  background-color:#FAE6B1;
   margin: 20px 0 50px 400px;
   padding:20px 0;
 }
@@ -74,7 +81,7 @@ button{
 }
 .titleName{
   width:300px;
-  height: 25px;
+  height: 20px;
   border:0;
   resize:none;
   border:1px solid #000;

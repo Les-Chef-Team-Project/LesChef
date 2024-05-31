@@ -1,43 +1,25 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const addReplyBtns = document.querySelectorAll('.addReplyBtn');
-  const replyCancleBtns = document.querySelectorAll('.replyCancle');
-  const replySubmit = document.getElementById('replySubmit');
+/* 댓글 추가 */
+function addComment(event){
+  event.preventDefault();
+  var commentInput = event.target.querySelector("input");
+  var commentText = commentInput.value;
+  var date = new Date().toLocaleString();
 
-  addReplyBtns.forEach(addReplyBtn => {
-    addReplyBtn.addEventListener('click', function(e) {
-      var elementId = e.target.id;
-      var currentReply = parseInt(elementId.replace('replyBtn', ''));
-      var replyForm = document.getElementById('replyForm'+currentReply);
-      replyForm.querySelector('.reply').style.display = 'block';
-      addReplyBtn.style.display = 'none'
-    })
-  });
+  var commentDiv = document.createElement("div");
+  commentDiv.className = "card my-3";
+  commentDiv.innerHTML = 
+  `<div class="comment">
+    <img src="../img/fubao.jpg" class="commentWriterImg">
+      <div class="commentContent">
+      <p>
+        <span class="commentWriterName">푸바오</span>
+        <span class="commentDate">${date}</span>
+      </p>
+      <p class="commentText">${commentText}</p>
+  </div>`;
+  
+  var commentsDiv = event.target.parentNode.querySelector(".commentRepeat");
+  commentsDiv.insertBefore(commentDiv, commentsDiv.firstChild);
 
-  replyCancleBtns.forEach(replyCancleBtn => {
-    replyCancleBtn.addEventListener('click', function(e){
-      var elementId = e.target.id;
-      var currentReply = parseInt(elementId.replace('replyCancle', ''));
-      var replyForm = document.getElementById('replyForm'+currentReply);
-      replyForm.querySelector('.reply').style.display = 'none';
-      var addReplyBtn = document.getElementById('replyBtn'+currentReply);
-      addReplyBtn.style.display = 'inline';
-    })
-  });
-  // replyCancle.addEventListener('click', function() {
-  //     replyForm.querySelector('.reply').style.display = 'none';
-  //     addReplyBtn.style.display = 'inline';
-  // });
-
-  replySubmit.addEventListener('click', function(event) {
-      event.preventDefault();
-      const replyContent = document.getElementById('replyContent').value;
-      if (replyContent) {
-          alert('답글: ' + replyContent);
-          document.getElementById('replyContent').value = '';
-          replyForm.querySelector('.reply').style.display = 'none';
-          addReplyBtn.style.display = 'inline';
-      } else {
-          alert('답글을 입력하세요');
-      }
-  });
-});
+  commentInput.value= "";
+}

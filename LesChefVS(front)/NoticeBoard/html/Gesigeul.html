@@ -19,7 +19,7 @@
       <span>게시글</span>
     </div>
     <!--이전,다음페이지 버튼까지-->
-    <a href="NoticeBoardMain.html"><img src="../img/LArrow.jpg" class="BeforePage"></a>
+    <a href="NoticeBoardMain.html"><img src="../img/LArrow-black.png" class="BeforePage"></a>
     <div class="gesiBox">
       <h1 class="gesiTitle">감자짜글이 JMT 실화냐? 먹고 뒤질뻔 ㅋㅋ</h1>
       <!--수정 삭제 버튼-->
@@ -70,81 +70,19 @@
     <!--댓글 및 답글-->
     <div class="commentBox">
       <!--댓글 내용 전송-->
-      <form>
-        <textarea placeholder="댓글을 입력해주세요"></textarea>
+      <form onsubmit = "addComment(event)">
+        <div>
+          <input type="text" placeholder="댓글을 입력해주세요" class="commentInput" size="105">
+        </div>
         <!--전송 버튼 commentWriteBtn=flex-->
         <button type="submit" class="commentWriteBtn">
-          <span>댓글 작성</span>
+          <span>등록</span>
           <img src="../img/commentWrite.jpg">
         </button>
       </form>
       <!--댓글 목록 comment,,commentContent=flex-->
-      <div class="comment">
-        <img src="../img/fubao.jpg" class="commentWriterImg">
-        <div class="commentContent">
-          <p>
-            <span class="commentWriterName">푸바오</span>
-            <span class="commentDate">2024-05-27</span>
-          </p>
-          <p>오리너구리 맛있겠네요</p>
-          <!--답글 클릭 시 답글 입력 input추가-->
-          <button type="button" class="addReplyBtn" id="replyBtn1">답글</button>  
-          <!--답글 내용 전송 replySubmitBox=inline-flex-->
-          <form class="replyForm" id="replyForm1">
-            <div class="reply">
-              <div class="replySubmitBox">
-                <img src="../img/duck.jpg" class="replyImg">
-                <input type="text" id="replyContent" placeholder="답글을 입력하세요">
-              </div>
-              <button type="button" class="replyCancle" id="replyCancle1">취소</button>
-              <button type="submit" class="replyBtn" id="replySubmit">답글</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="comment">
-        <img src="../img/fubao.jpg" class="commentWriterImg">
-        <div class="commentContent">
-          <p>
-            <span class="commentWriterName">푸바오</span>
-            <span class="commentDate">2024-05-27</span>
-          </p>
-          <p>오리너구리 맛있겠네요</p>
-          <button type="button" class="addReplyBtn" id="replyBtn2">답글</button>  
-          <!--답글 내용 전송-->
-          <form class="replyForm" id="replyForm2">
-            <div class="reply">
-              <div class="replySubmitBox">
-                <img src="../img/duck.jpg" class="replyImg">
-                <input type="text" id="replyContent" placeholder="답글을 입력하세요">
-              </div>
-              <button type="button" class="replyCancle" id="replyCancle2">취소</button>
-              <button type="submit" class="replyBtn" id="replySubmit">답글</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="comment">
-        <img src="../img/fubao.jpg" class="commentWriterImg">
-        <div class="commentContent">
-          <p>
-            <span class="commentWriterName">푸바오</span>
-            <span class="commentDate">2024-05-27</span>
-          </p>
-          <p>오리너구리 맛있겠네요</p>
-          <button type="button" class="addReplyBtn" id="replyBtn3">답글</button>  
-          <!--답글 내용 전송-->
-          <form class="replyForm" id="replyForm3">
-            <div class="reply">
-              <div class="replySubmitBox">
-                <img src="../img/duck.jpg" class="replyImg">
-                <input type="text" id="replyContent" placeholder="답글을 입력하세요">
-              </div>
-              <button type="button" class="replyCancle"  id="replyCancle3">취소</button>
-              <button type="submit" class="replyBtn" id="replySubmit">답글</button>
-            </div>
-          </form>
-        </div>
+      <div class="commentRepeat">
+        
       </div>
     </div>
   </main>

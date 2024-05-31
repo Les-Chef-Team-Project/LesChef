@@ -64,6 +64,7 @@ body{
 .write img{
   border-radius: 50px;
   box-shadow:0px 2px 3px  #827e7e;
+  width:70px;
 }
 .write img:active{
   box-shadow: 1px 1px 0 #827e7e;
@@ -79,7 +80,7 @@ body{
   display:flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-left:125px;
+  padding-left:140px;
 }
 .gesigeul dt{
   overflow: hidden;
