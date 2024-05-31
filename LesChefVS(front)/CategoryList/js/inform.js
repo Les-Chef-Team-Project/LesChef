@@ -48,4 +48,6 @@ const firsttext = document.querySelector('.comentbox:nth-of-type(1)');
 
 
     container.append(cloneBox);
-})
+    
+    coment.value = "";
+  })
