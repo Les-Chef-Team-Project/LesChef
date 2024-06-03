@@ -1,5 +1,5 @@
 body{
-  background-color:#B3DEE5;
+  background-color:#FFE3D2;
 }
 button{
   cursor: pointer;
@@ -9,7 +9,7 @@ textarea{
   font-family: "gmarket";
 }
 .logoBackGround{
-  background-color:#31525B;
+  background-color:#FEBE98;
 }
 .gesiContent{
   margin-left:40px;
@@ -20,7 +20,7 @@ textarea{
 }
 
 .regiTopImg{
-  background-image: url("../img/orange.jpg");
+  background-image: url("../img/boardmain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height:180px;
@@ -81,10 +81,11 @@ textarea{
 }
 .titleName{
   width:300px;
-  height: 20px;
+  height: 45px;
   border:0;
   resize:none;
   border:1px solid #000;
+  font-size:16px;
 }
 
 .click_Img{

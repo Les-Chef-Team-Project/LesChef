@@ -1,6 +1,10 @@
 body{
   background-color:#FFE3D2;
 }
+.logoBackGround{
+  
+  background-color:#FEBE98;
+}
 /*NoticeBoard 이미지*/
 .boardTopImg{
   background-image: url("../img/boardmain.jpg");
