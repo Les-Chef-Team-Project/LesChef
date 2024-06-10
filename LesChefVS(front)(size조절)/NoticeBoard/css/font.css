@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'inter';
+  src: url('../font/Inter-Bold.ttf');
+  font-size:12px;
+
+}
+@font-face{
+  font-family: 'gmarket';
+  src: url('../font/GmarketSansTTFMedium.ttf');
+
+}
