@@ -61,8 +61,10 @@ category.addEventListener('click', () => {
     underLine.style.opacity = 0;
     changeOpacity(phrase1, 0);
     changeOpacity(phrase2, 0);
-    loginButton.style.display = "none"; //
-    myPageButton.style.display = "none"; //
+    loginButton.style.zIndex = "-4"; //
+    myPageButton.style.zIndex = "-4"; //
+    loginButton.style.opacity = "0"; //
+    myPageButton.style.opacity = "0"; //
     // removeItem();
     menuFlag = false;
   }
@@ -72,8 +74,10 @@ category.addEventListener('click', () => {
     blockMenu.style.opacity = 0;
     leftLine.style.opacity = 1;
     underLine.style.opacity = 1;
-    loginButton.style.display = "flex"; //
-    myPageButton.style.display = "flex"; //
+    loginButton.style.display = "1"; //
+    myPageButton.style.display = "1"; //
+    loginButton.style.opacity = "1"; //
+    myPageButton.style.opacity = "1"; //
     changeOpacity(phrase1, 1);
     changeOpacity(phrase2, 1);
     menuFlag = true;
