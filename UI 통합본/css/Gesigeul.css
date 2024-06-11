@@ -146,9 +146,8 @@ textarea{
 /*댓글 작성 버튼 정렬*/
 .commentWriteBtn{
   display: flex;
-  position: relative;
-  left: 80%;
-  top: 3vh;
+  position: absolute;
+  right: 0;
   justify-content: space-around;
   align-items: center;
   /* margin: 40px 0 50px 621px; */
@@ -187,7 +186,7 @@ textarea{
   background-color: #FEBEB0;
 }
 .commentInput{
-  width: 769px;
+  width: 100%;
   font-size: 20px;
   color: #fff;
   background-color: #FEBEB0;
@@ -304,4 +303,12 @@ textarea{
 
 #nameTag{
   margin-right: 10px;
+}
+
+
+
+/*aaaa*/
+.commentBox form{
+  position: relative;
+  margin-bottom: 50px;
 }
