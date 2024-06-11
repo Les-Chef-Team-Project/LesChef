@@ -29,34 +29,35 @@ img{
 }
 .Logo{
   position: fixed;
-  top:20px;
-  left:30px;
+  top:3vh;
+  left:2.5vw;
   z-index: 1;
+  width: 14vw;
 }
 #left_box{
-  top: 30px;
-  left:300px;
+  top: 0;
+  left:18vw;
   position: fixed;
-  height: 900px;
+  height: 100vh;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   z-index: 1;
 }
 #under_box{
-  top: 700px;
-  left: 300px;
+  top: 67vh;
+  left: 18vw;
   position: fixed;
-  width: 83%;
+  width: 82vw;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   z-index: 1;
 }
 .main_phrase1 {
   color: rgba(255,255,255);
   position: absolute;
-  top: 10px;
-  left: 330px;
+  top: 4vh;
+  left: 21vw;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
   font-weight: Bold;
-  font-size: 70px;
+  font-size: 7vh;
   opacity: 1;
   text-align: left;
   z-index: 1;
@@ -64,11 +65,11 @@ img{
 .main_phrase2 {
   color: rgba(255,255,255);
   position: absolute;
-  top: 710px;
-  right:30px;
+  top: 71vh;
+  right:3vw;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
   font-weight: Bold;
-  font-size: 70px;
+  font-size: 7vh;
   opacity: 1;
   text-align: right;
   z-index: 1;
@@ -78,32 +79,54 @@ img{
 }
 #signup-box{
   position: absolute;
-  right:70px;
-  top: 80px;
+  right:4vw;
+  top: 9vh;
   border-radius: 20px;
   background-color: #001811;
-  width:500px;
-  height: 800px;
+  width: 23vw;
+  height: 82vh;
 }
 #signup-box a{
-  display: block;
-  width: 236px;
-  margin: 20px auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 3vh auto;
 }
+
+#signup-box img{
+  width: 45%;
+}
+
+#signup-box p{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#signup-box p span{
+  margin-left: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#signup-box p span:hover{
+  text-decoration: underline;
+}
+
 #signup{
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 #signup label{
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 12%;
   margin-bottom: 10px;
 }
 #signup input{
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
   color:white;
-  width: 80%;
+  width: 75%;
   display: block;
   margin: 0 auto;
   background-color: #001811;
@@ -114,29 +137,36 @@ input:focus{
   outline: none;
 }
 #signup button{
-  font-size: 25px;
+  font-size: 17px;
   color:white;
   background-color: #79AE84;
   border: none;
   border-radius: 10px;
   position: relative;
-  width: 70%;
-  height: 50px;
+  width: 73%;
+  height: 6vh;
   display: block;
   margin:0 auto;
+  font-weight: bold;
+  cursor: pointer;
 }
 /* 왼쪽 버튼*/
 #left-sidebar{
   list-style: none;
   position: fixed;
-  top:800px;
-  left:40px;
+  top:88vh;
+  left:3vw;
+  width: 12vw;
   display: flex;
   z-index: 1;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#menu{
-  margin-top: 20px;
+
+#left-sidebar img{
+  width: 48px;
 }
+
 #menu:hover{
   cursor: pointer;
 }
@@ -165,4 +195,125 @@ input:focus{
 }
 #signup-area{
   z-index: 2;
+}
+
+.loginModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -2;
+}
+
+.loginModal.active{
+  z-index: 10;
+}
+
+.Login-box {
+  position: absolute;
+  left: 37vw;
+  top: 5vh;
+  width: 26vw;
+  height: 90vh;
+  background-color: #00301F;
+  box-shadow: 0 0 4px 0 black;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.5s;
+  /* pointer-events: none; */
+}
+
+.Login-box.active{
+  opacity: 1;
+}
+
+.Login-box label{
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-left: 11%;
+  color: white;
+}
+.Login-box input{
+  color:white;
+  font-size: 15px;
+  display: block;
+  width: 77%;
+  background-color: #00301F;
+  border: 0;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+}
+.Login-box input:focus{
+  outline: none;
+}
+
+#FindIdPw{
+  font-size: 17px;
+  width: 50%;
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  right: 6%;
+  margin-top: 5px;
+}
+#FindIdPw:visited{
+  text-decoration: none;
+}
+#Login-box-Logo{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin: 3vh 0;
+}
+
+#Login-box-Logo img{
+  width: 45%;
+  margin-left: 10px;
+}
+
+.Login-box button{
+  display: block;
+  margin: 0 auto;
+  font-size: 19px;
+  color:white;
+  background-color: #79AE84;
+  width: 72%;
+  height: 6vh;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.Login-box button:hover{
+  background-color: #194033;
+}
+
+.Login-box hr{
+  width: 80%;
+}
+#social-login-block{
+  display: flex;
+  width: 76%;
+  text-align: center;
+  justify-content: space-around;
+  margin: 2vh auto;
+
+}
+.Login-box .social-login img{
+  background-color: #79AE84;
+  display: inline-block;
+  width: 4vw;
+  height: 8vh;
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+
+.Login-box p{
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
