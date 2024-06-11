@@ -63,3 +63,32 @@ categoryname.forEach((name, index) =>{
         textarea.classList.remove('active');
       }
     });
+
+
+
+//로그인 모달
+const loginModal = document.querySelector('.loginModal');
+const loginBox = document.querySelector('.Login-box');
+const loginButton = document.getElementById('login');
+
+
+function loginModalActive() {
+  if(loginModal.classList.contains('active')){
+    loginBox.classList.remove('active');
+    setTimeout(() => {
+      loginModal.classList.remove('active');
+    }, 500);
+    
+  }else{
+    loginBox.querySelector("input").value = "";
+    loginModal.classList.add('active');
+    loginBox.classList.add('active');
+  }
+}
+
+loginBox.addEventListener('click', function(event) {
+  event.stopPropagation();
+});
+
+loginButton.addEventListener('click', loginModalActive);
+loginModal.addEventListener('click', loginModalActive);
