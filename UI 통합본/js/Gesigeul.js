@@ -54,7 +54,7 @@ function addComment(event){
 
     commentDiv.innerHTML = 
       `<div class="comment">
-        <img src="../img/fubao.jpg" class="commentWriterImg">
+        <img src="../img/img/fubao.jpg" class="commentWriterImg">
           <div class="commentContent">
           <p>
             <span class="commentWriterName">푸바오</span>
@@ -67,7 +67,7 @@ function addComment(event){
   }else{
     commentDiv.innerHTML = 
       `<div class="comment">
-        <img src="../img/fubao.jpg" class="commentWriterImg">
+        <img src="../img/img/fubao.jpg" class="commentWriterImg">
           <div class="commentContent">
           <p>
             <span class="commentWriterName">푸바오</span>
