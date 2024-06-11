@@ -1,3 +1,7 @@
+html{
+  overflow: hidden;
+}
+
 body{
   margin:0;
   padding: 0;
@@ -20,10 +24,10 @@ p{
 }
 .Login-box {
   position: absolute;
-  top:50px;
-  right:80px;
-  width: 450px;
-  height: 850px;
+  right:4vw;
+  top: 9vh;
+  width: 23vw;
+  height: 82vh;
   background-color: #00301F;
   box-shadow: 0 0 4px 0 black;
   border-radius: 20px;

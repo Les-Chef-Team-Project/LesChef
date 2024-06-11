@@ -28,6 +28,9 @@ function pageMovement(e){
 
 const loginButton = document.getElementById('loginButton');
 const myPageButton = document.getElementById('myPageButton');
+const loginModal = document.querySelector('.loginModal');
+const loginBox = document.querySelector('.Login-box');
+const joinToLogin = document.querySelector('#signup-box p span');
 
 //테스트
 
@@ -89,10 +92,29 @@ function changeOpacity(elements, value){
   })
 }
 
+function loginModalActive() {
+  if(loginModal.classList.contains('active')){
+    loginBox.classList.remove('active');
+    loginModal.classList.remove('active');
+    window.addEventListener('wheel', pageMovement);
+  }else{
+    loginBox.querySelector("input").value = "";
+    loginModal.classList.add('active');
+    loginBox.classList.add('active');
+    window.removeEventListener('wheel', pageMovement);
+  }
+}
 
-
-
+loginBox.addEventListener('click', function(event) {
+  event.stopPropagation();
+});
 
 
 window.addEventListener('wheel', pageMovement);
 // window.addEventListener('scroll', detectBottom);
+
+loginButton.addEventListener('click', loginModalActive);
+
+loginModal.addEventListener('click', loginModalActive);
+
+joinToLogin.addEventListener('click', loginModalActive);
