@@ -11,7 +11,8 @@ a{
 
 /* 헤더 css */
 header{
-  min-width: 1920px;
+  width:100%;
+  /* min-width: 1920px; */
   background-color: #fff;
   position: fixed;
   left: 0px;
@@ -25,7 +26,6 @@ header{
 }
 #board{
   padding-top: 50px;
-  opacity: 0;
 }
 #icon2{
   padding-top: 45px;

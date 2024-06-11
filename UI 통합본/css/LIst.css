@@ -10,7 +10,7 @@
 #ontext{
   display: inline-block;
   width:100%;
-  min-width: 1920px;
+  /* min-width: 1920px; */
   font-family: 'kopub';
   font-weight: 900;
   position: absolute;
@@ -124,7 +124,8 @@ padding-right: 40px;
 #search{
   position:fixed;
   z-index: 1;
-  left: 1740px;
+  /* left: 1740px; */
+  left:90%;
   top: 616px;
   cursor: pointer;
 }
@@ -132,7 +133,8 @@ padding-right: 40px;
 
   position: fixed;
   z-index: 0;
-  left: 1755px;
+  /* left: 1755px; */
+  left: 91.5%;
   top: 619px;
   width: 0px ;
   height: 43px;
@@ -145,5 +147,6 @@ padding-right: 40px;
 }
 #searchtext.active{
   width: 500px;
-  left: 1274px;
+  /* left: 1274px; */
+  left:59%;
 }
