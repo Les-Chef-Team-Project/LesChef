@@ -47,3 +47,25 @@
   font-weight: 900;
   src: url("../font/sans/NotoSansKR-Bold.ttf");
 }
+
+
+/* 부용이 폰트 */
+@font-face {
+  font-family: 'inter';
+  src: url('../font/Inter-Bold.ttf');
+  font-size:12px;
+
+}
+@font-face{
+  font-family: 'gmarket';
+  src: url('../font/GmarketSansTTFMedium.ttf');
+
+}
+
+/* 상훈이형 폰트 */
+
+@font-face {
+  font-family: 'GreateVibes';
+  font-size: 25px;
+  src: url(../font/GreatVibes-Regular.ttf);
+}

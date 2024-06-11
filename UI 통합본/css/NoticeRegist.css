@@ -1,0 +1,107 @@
+body{
+  background-color:#FFE3D2;
+}
+button{
+  cursor: pointer;
+}
+textarea{
+  border-radius:5px;  
+  font-family: "gmarket";
+}
+.logoBackGround{
+  background-color:#FEBE98;
+}
+.gesiContent{
+  margin-left:40px;
+  width:650px;
+  height: 450px;
+  resize: none;
+  border:0;
+  background-color:#ffe3d2;
+  padding: 20px;
+}
+
+.regiTopImg{
+  background-image: url("../img/boardmain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:180px;
+  text-align: center;
+  position: relative;
+}
+.regiTopImg span{
+  position : inherit;
+  top:18%;
+  font-size:60px;
+  font-weight: bold;
+}
+.BeforePage{
+  margin-left:400px;
+}
+.regi{
+  font-size:40px;
+  font-weight: bold;
+  text-align: center;
+}
+.writeBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:555px;
+  border-radius: 50px;
+  border: 0px;
+  box-shadow: 0px 2px 6px #ffb638;
+  width: 200px;
+  height: 55px;
+  background-color: #ffd07f;
+  font-size:23px;
+  font-weight: bold;
+  margin-left:1290px;
+}
+.writeBtn span{
+  padding-left:20px;
+}
+.writeBtn img{
+  width:50px;
+  height:55px;
+}
+ 
+.registBox {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+  height: 500px;
+  box-shadow: 0px 3px 5px #ff893e;
+  background-color: #FEBE98;
+  margin: 20px 0 50px 400px;
+  padding: 20px 0;
+}
+
+.registTitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0 50px;
+}
+.titleName{
+  width:300px;
+  height: 45px;
+  border:0;
+  resize:none;
+  background-color: #ffe3d2;
+  font-size:16px;
+  padding:10px;
+}
+
+.click_Img{
+  width:320px;
+  height:306px;
+  border-radius:30px;
+  border:1px solid #000;
+  cursor: pointer;
+  border:0;
+}
+
+#toggleImage{
+  
+  background-color:#fff;
+}
