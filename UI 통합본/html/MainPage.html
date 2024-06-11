@@ -53,22 +53,44 @@
                 <input type="tel" /><br>
               <button type="submit">회원가입</button>
             </form>
+            <p>이미 회원이신가요? <span>로그인</span></p>
           </div>
       </div>
       <ul id="left-sidebar">
         <li id="menu"><img   src="../img/image/Menu.png"/></li>
-        <li id="loginButton"><a href="Login.html"><img src="../img/image/Login.png"/></a></li> <!---->
-        <li id="myPageButton"><a href="../../mypage/html/Rewrite.html"><img src="../img/image/마이페이지 1.png"/></a></li> <!---->
+        <li id="loginButton"><img src="../img/image/Login.png"/></li> <!---->
+        <li id="myPageButton"><a href="./Rewrite.html"><img src="../img/image/마이페이지 1.png"/></a></li> <!---->
       </ul>
       <div id="under_box"></div>
       <div id="select-menu">
         <div id="menu-box">
-        <a href="../../CategoryList/html/List.html"><h1>Korean</h1></a><br>
-        <a href="../../CategoryList/html/List.html"><h1>Western</h1></a><br>
-        <a href="../../CategoryList/html/List.html"><h1>Japanese</h1></a><br>
-        <a href="../../CategoryList/html/List.html"><h1>Chinese</h1></a><br>
-        <a href="../../CategoryList/html/List.html"><h1>Share Recipe</h1></a><br>
-        <a href="../../NoticeBoard/html/NoticeBoardMain.html"><h1>Community</h1></a>
+        <a href="./List.html"><h1>Korean</h1></a><br>
+        <a href="./List.html"><h1>Western</h1></a><br>
+        <a href="./List.html"><h1>Japanese</h1></a><br>
+        <a href="./List.html"><h1>Chinese</h1></a><br>
+        <a href="./List.html"><h1>Share Recipe</h1></a><br>
+        <a href="./NoticeBoardMain.html"><h1>Community</h1></a>
+        </div>
+      </div>
+
+      <div class="loginModal">
+        <div class="Login-box">
+          <a id="Login-box-Logo" href="MainPage.html"><img src="../img/image/main_logo.png" /></a>
+          <form>
+            <label>이메일(아이디)</label><br>
+            <input type="email"/><br>
+            <label>비밀번호</label><br>
+            <input type="password"/>
+              <a id="FindIdPw" href="FindIdPw.html">아이디 / 비밀번호 찾기</a><br>
+              <div id="social-login-block">
+                <a class="social-login" href="#"><img src="../img/image/Kakao.jpg"/></a>
+                <a class="social-login" href="#"><img src="../img/image/Google_logo.png"/></a>
+                <a class="social-login" href="#"><img src="../img/image/Naver_logo.png"/></a>
+              </div>
+            <button type="submit">로그인</button>
+          </form>
+            <p>아직 아이디가 없으신가요?<br> 회원가입으로 더 많은 요리정보를 얻으세요!</p>
+          <button type="button">회원가입</button>
         </div>
       </div>
       <script src="../js/MainPage.js"></script>

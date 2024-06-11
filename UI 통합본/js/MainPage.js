@@ -28,6 +28,9 @@ function pageMovement(e){
 
 const loginButton = document.getElementById('loginButton');
 const myPageButton = document.getElementById('myPageButton');
+const loginModal = document.querySelector('.loginModal');
+const loginBox = document.querySelector('.Login-box');
+const joinToLogin = document.querySelector('#signup-box p span');
 
 //테스트
 
@@ -58,8 +61,10 @@ category.addEventListener('click', () => {
     underLine.style.opacity = 0;
     changeOpacity(phrase1, 0);
     changeOpacity(phrase2, 0);
-    loginButton.style.display = "none"; //
-    myPageButton.style.display = "none"; //
+    loginButton.style.zIndex = "-4"; //
+    myPageButton.style.zIndex = "-4"; //
+    loginButton.style.opacity = "0"; //
+    myPageButton.style.opacity = "0"; //
     // removeItem();
     menuFlag = false;
   }
@@ -69,8 +74,10 @@ category.addEventListener('click', () => {
     blockMenu.style.opacity = 0;
     leftLine.style.opacity = 1;
     underLine.style.opacity = 1;
-    loginButton.style.display = "flex"; //
-    myPageButton.style.display = "flex"; //
+    loginButton.style.display = "1"; //
+    myPageButton.style.display = "1"; //
+    loginButton.style.opacity = "1"; //
+    myPageButton.style.opacity = "1"; //
     changeOpacity(phrase1, 1);
     changeOpacity(phrase2, 1);
     menuFlag = true;
@@ -89,10 +96,29 @@ function changeOpacity(elements, value){
   })
 }
 
+function loginModalActive() {
+  if(loginModal.classList.contains('active')){
+    loginBox.classList.remove('active');
+    loginModal.classList.remove('active');
+    window.addEventListener('wheel', pageMovement);
+  }else{
+    loginBox.querySelector("input").value = "";
+    loginModal.classList.add('active');
+    loginBox.classList.add('active');
+    window.removeEventListener('wheel', pageMovement);
+  }
+}
 
-
-
+loginBox.addEventListener('click', function(event) {
+  event.stopPropagation();
+});
 
 
 window.addEventListener('wheel', pageMovement);
 // window.addEventListener('scroll', detectBottom);
+
+loginButton.addEventListener('click', loginModalActive);
+
+loginModal.addEventListener('click', loginModalActive);
+
+joinToLogin.addEventListener('click', loginModalActive);

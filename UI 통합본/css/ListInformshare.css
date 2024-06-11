@@ -5,7 +5,7 @@
   font-weight: 700;
   position: relative;
   top:235px;
-  left: 490px;
+  left: 25%;
   font-size: 20px;
   color: #999999;
 }
@@ -14,20 +14,21 @@
   font-weight: 900;
   position: relative;
   top:240px;
-  left: 490px;
+  left:  25%;
   font-size: 40px;
 }
 #mainimg{
   position: absolute;
   top:400px;
-  left: 480px;
-  width: 924px;
-  height: 572px;
+  left:  25%;
+  /* width: 924px;
+  height: 572px; */
+  width:50%;
 }
 #user{
   position: relative;
   top:250px;
-  left: 490px;
+  left: 25%;
   width:800px;
 
 }
@@ -42,7 +43,7 @@
 #eye{
   position: relative;
   top: 230px;
-  left: 1320px;
+  left: 69%;
 }
 #eyenum{
   font-family: 'sans';
@@ -50,7 +51,7 @@
   color: #999999;
   position:relative;
   top: 199px;
-  left: 1360px;
+  left: 71.5%;
   width:150px;
 }
 
@@ -58,12 +59,12 @@
 
 #cell{
   position:fixed;
-  top:400px;
-  left: 1450px;
+  top:350px;
+  left: 78%;
   border: 0px solid black;
   border-radius: 20px;
   background-color: #E6E6E6;
-  width: 304px;
+  width: 260px;
   height: auto;
   max-height: 941px;
   padding-left: 20px;
@@ -86,23 +87,25 @@
 }
 .aside{
   position: fixed;
+  /* border: 1px solid black; */
   width: 300px;
-  top: 300px;
-  left: 1450px;
+  top: 250px;
+  left: 77%;
 }
 #asideicon1{
   padding-left: 80px;
 }
 #asideicon2{
-  padding-left: 50px;
+  padding-left: 30px;
 }
+
 
 /* 메인 사진 아랫부분 */
 .allicon{
   display: flex;
   position: relative;
-  top: 910px;
-  padding-left: 1110px;
+  top: 725px;
+  padding-left: 56%;
   padding-bottom: 15px;
   }
   .allicon img{
@@ -113,7 +116,6 @@
   }
 .selecticon{
   padding-left: 15px;
-  
 }
 #selecticon2{
   padding-top: 3px;
@@ -130,9 +132,9 @@
 }
 #line1{
   position: relative;
-  top: 850px;
-  width:924px;
-  left: 480px;
+  top: 670px;
+  width:760px;
+  left: 25%;
 }
 
 /* 선 부분 */
@@ -141,20 +143,21 @@
   font-family: 'kopub';
   font-weight: 900px;
   position:relative;
-  top: 830px;
-  right: 450px;
+  top: 650px;
+  right: 25%;
   font-size: 50px;  
 }
+
 
 /* 레시피 설명문 그리드 css*/
 
 .containerwap{
-  padding: 920px 480px 0px 480px;  
+  padding: 730px 350px 0px 380px; 
 }
 
 .gridcontainer{
   display: grid;
-  grid-template-columns: 400px 90.5px 433.5px ;
+  grid-template-columns: 320px 120px 320px ;
   grid-template-rows: repeat(2, 50px 350px) ;
 }
 /* script 전체 적용 css */
@@ -164,6 +167,9 @@
   font-size: 30px;
 }
 /* script 부분 적용 css */
+.script1{
+  width:95%; 
+}
 .script2{
   grid-column-start: 2;
   
@@ -179,7 +185,8 @@ padding-top: 15px;
 }
 .script4{
   grid-column-start: 3;
-  justify-self: end; 
+  justify-self: end;
+  width:95%; 
 }
 .script5{
   grid-row-start: 3;
@@ -202,8 +209,8 @@ padding-top: 15px;
   display: flex;
   flex-wrap: nowrap;
   padding-top: 30px;
-  margin-left: 0px;
-  width: 924px;
+  margin-left: 23%;
+  width: 790px;
   height: 90px;
   border-top: 1px solid #b8b8b8;
   border-bottom: 1px solid #b8b8b8;
@@ -211,30 +218,30 @@ padding-top: 15px;
 .totalimg{ 
   position: relative;
   top:0px;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-right: 30px;
 
 }
 .totalnumber{
   font-family: 'sans';
   font-weight: 900;
-  font-size: 40px;
+  font-size: 35px;
 }
 .totalnumber1{  
   padding-left: 80px;
 }
 .totalnumber2{
-  color:#4d4d4d
+  color:#4d4d4d;
 }
 
 /* 댓글 */
 #comentcontainer{
-  margin: 30px 25px;
-  width:924px;
+  margin: 30px 23%;
+  width:790px;
   border-bottom: 1px solid #b8b8b8;
 }
 .comentbox{
-  padding-left: 55px;
+  padding-left: 80px;
   margin-bottom: 50px;
 }
 .coment{
@@ -282,8 +289,9 @@ padding-top: 15px;
 
 /* 댓글 작성 */
 #reviewcontainer{
-  margin-left: 65px;
+  margin-left: 23%;
   margin-bottom: 100px;
+  padding-left: 5%;
 }
 #review{
   font-family: 'sans';
@@ -299,14 +307,14 @@ padding-top: 15px;
 }
 #areasize{
   padding: 20px;
-  width:750px;
+  width: 650px;
   height: 150px;
   font-family: 'sans';
   font-weight: 900;
   font-size: 15px;
 }
 #resist{
-  margin-left: 550px;
+  margin-left: 430px;
   background-color: #003320;
   border: 1px solid #003320;
   border-radius: 10px;
