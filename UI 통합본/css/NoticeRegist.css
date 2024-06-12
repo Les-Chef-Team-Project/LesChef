@@ -18,8 +18,8 @@ textarea{
 }
 .gesiContent{
   margin:2vh 0 0 5vw;
-  width:47vw;
-  height: 80vh;
+  width:50%;
+  height: 45vh;
   resize: none;
   border:0;
   background-color:#ffe3d2;
@@ -30,18 +30,20 @@ textarea{
   background-image: url("../img/img/boardmain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 28vh;
   text-align: center;
   position: relative;
 }
 .regiTopImg span{
   position : inherit;
   top:25%;
-  font-size:5vw;
+  font-size:4vw;
   font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 7px #000;
 }
 .BeforePage{
-  margin-left:7%;
+  margin-left:21%;
 }
 .regi{
   font-size:3vw;
@@ -58,23 +60,20 @@ form{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left:555px; */
   border-radius: 50px;
   border: 0px;
   box-shadow: 0px 2px 6px #ffb638;
-  width: 15vw;
-  height: 9.5vh;
+  width: 11vw;
+  height: 6.5vh;
   background-color: #ffd07f;
-  font-size:23px;
   font-weight: bold;
-  /* margin-left:1290px; */
-
   position: absolute;
   top: 0;
-  right: 8vw;
+  right: 22vw;
 }
 .writeBtn span{
   padding-left:20px;
+  font-size:1.2vw;
 }
 .writeBtn img{
   width:50px;
@@ -84,32 +83,32 @@ form{
 .registBox {
   display: flex;
   justify-content: center;
-  width: 85vw;
-  height: 90vh;
+  width: 58%;
+  height: 55vh;
   box-shadow: 0px 3px 5px #ff893e;
   background-color: #FEBE98;
-  margin: 2vh 0 5vh 7vw;
+  margin: 2vh 0 5vh 21vw;
   padding: 2vh 0;
 }
 
 .registTitle{
-  font-size: 25px;
+  font-size: 1.5vw;
   font-weight: bold;
-  margin: 30px 0 50px;
+  margin: 5% 0 10% 5%;
 }
 .titleName{
-  width:300px;
-  height: 45px;
+  width:100%;
+  height: 10vh;
   border:0;
   resize:none;
   background-color: #ffe3d2;
-  font-size:16px;
+  font-size:1vw;
   padding:10px;
 }
 
 .click_Img{
-  width:320px;
-  height:306px;
+  width:100%;
+  height:50%;
   border-radius:30px;
   border:1px solid #000;
   cursor: pointer;
@@ -119,4 +118,5 @@ form{
 #toggleImage{
   
   background-color:#fff;
+  margin-left: 1vw;
 }
