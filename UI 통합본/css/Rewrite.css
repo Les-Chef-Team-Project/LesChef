@@ -79,16 +79,18 @@ body {
 }
 
 .profile h2 {
+  color: #fff;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 12%;
+  margin-top: 4%;
 }
 
 .clickable-img {
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
   cursor: pointer;
-  width: 30%;
-  height: 15%;
+  width: 20%;
+  height: 9%;
   border-radius: 50%;
 }
 
@@ -99,12 +101,10 @@ form {
 }
 
 label {
-  margin: 10px 0 5px 0;
   font-weight: bold;
 }
 
 input {
-  margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
