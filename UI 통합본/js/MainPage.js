@@ -31,6 +31,16 @@ const myPageButton = document.getElementById('myPageButton');
 const loginModal = document.querySelector('.loginModal');
 const loginBox = document.querySelector('.Login-box');
 const joinToLogin = document.querySelector('#signup-box p span');
+const goToJoinButton = document.querySelector('.go-to-join');
+const goToFindButton = document.querySelector('#FindIdPw');
+const loginInputForm = document.querySelector('.login-form-container');
+const findInputForm = document.querySelector('.find-form-container');
+const findIdForm = document.querySelector('.id-form-container');
+const findPwForm = document.querySelector('.pw-form-container');
+const findIdButton = document.querySelector('.id-button');
+const findPwButton = document.querySelector('.pw-button');
+const findToLogin = document.querySelector('.find-to-login span');
+const findToLoginText = document.querySelector('.find-to-login');
 
 //테스트
 
@@ -56,28 +66,31 @@ logo.addEventListener('click', () =>{
 category.addEventListener('click', () => {
   if(menuFlag){
     window.removeEventListener('wheel', pageMovement);
+    blockMenu.style.transition = "all 1s";
+
     blockMenu.style.opacity = 1;
     leftLine.style.opacity = 0;
     underLine.style.opacity = 0;
     changeOpacity(phrase1, 0);
     changeOpacity(phrase2, 0);
-    loginButton.style.zIndex = "-4"; //
-    myPageButton.style.zIndex = "-4"; //
     loginButton.style.opacity = "0"; //
     myPageButton.style.opacity = "0"; //
+    loginButton.style.pointerEvents = "none";
+    myPageButton.style.pointerEvents = "none";
     // removeItem();
     menuFlag = false;
   }
   else{
     window.addEventListener('wheel', pageMovement);
     // location.reload(true);
+    blockMenu.style.transition = "none";
     blockMenu.style.opacity = 0;
     leftLine.style.opacity = 1;
     underLine.style.opacity = 1;
-    loginButton.style.display = "1"; //
-    myPageButton.style.display = "1"; //
     loginButton.style.opacity = "1"; //
     myPageButton.style.opacity = "1"; //
+    loginButton.style.pointerEvents = "all";
+    myPageButton.style.pointerEvents = "all";
     changeOpacity(phrase1, 1);
     changeOpacity(phrase2, 1);
     menuFlag = true;
@@ -97,6 +110,9 @@ function changeOpacity(elements, value){
 }
 
 function loginModalActive() {
+  loginInputForm.style.display = "block";
+  findInputForm.style.display = "none";
+  findToLoginText.style.display = "none";
   if(loginModal.classList.contains('active')){
     loginBox.classList.remove('active');
     loginModal.classList.remove('active');
@@ -117,8 +133,47 @@ loginBox.addEventListener('click', function(event) {
 window.addEventListener('wheel', pageMovement);
 // window.addEventListener('scroll', detectBottom);
 
+//로그인 모달
 loginButton.addEventListener('click', loginModalActive);
 
 loginModal.addEventListener('click', loginModalActive);
 
 joinToLogin.addEventListener('click', loginModalActive);
+
+
+goToJoinButton.addEventListener('click', () => {
+  loginModalActive();
+
+  window.scrollTo(0, 4 * window.innerHeight);
+});
+
+
+goToFindButton.addEventListener('click', () => {
+  loginInputForm.style.display = "none";
+  findInputForm.style.display = "block";
+  findIdForm.style.display = "block";
+  findPwForm.style.display = "none";
+  findIdButton.style.backgroundColor = "#79AE84";
+  findPwButton.style.backgroundColor = "#28442d";
+  findToLoginText.style.display = "block";
+});
+
+findIdButton.addEventListener('click',() => {
+  findIdButton.style.backgroundColor = "#79AE84";
+  findPwButton.style.backgroundColor = "#28442d";
+  findIdForm.style.display = "block";
+  findPwForm.style.display = "none";
+});
+
+findPwButton.addEventListener('click', () => {
+  findIdButton.style.backgroundColor = "#28442d";
+  findPwButton.style.backgroundColor = "#79AE84";
+  findIdForm.style.display = "none";
+  findPwForm.style.display = "block";
+});
+
+findToLogin.addEventListener('click', () => {
+  loginInputForm.style.display = "block";
+  findInputForm.style.display = "none";
+  findToLoginText.style.display = "none";
+});
