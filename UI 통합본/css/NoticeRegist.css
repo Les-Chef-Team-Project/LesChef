@@ -73,11 +73,11 @@ form{
 }
 .writeBtn span{
   padding-left:20px;
-  font-size:1.2vw;
+  font-size:1vw;
 }
 .writeBtn img{
-  width:50px;
-  height:55px;
+  width:30%;
+  height:100%;
 }
  
 .registBox {
