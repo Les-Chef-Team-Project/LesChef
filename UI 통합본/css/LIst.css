@@ -1,4 +1,6 @@
-
+body::-webkit-scrollbar{
+  display: none;
+}
 /* 헤더 밑 이미지,텍스트 css */
 #onimg{
   position:relative;
@@ -21,6 +23,10 @@
   font-size: 70px;
   color: #fff;
   text-shadow: 4px 2px 2px rgb(29, 29, 29);
+}
+
+#login{
+  cursor: pointer;
 }
 
 /* 세부 카테고리 텍스트 및 버튼 */
@@ -218,6 +224,7 @@ padding-right: 40px;
   position: absolute;
   right: 6%;
   margin-top: 5px;
+  cursor: pointer;
 }
 #FindIdPw:visited{
   text-decoration: none;
@@ -234,7 +241,7 @@ padding-right: 40px;
   margin-left: 10px;
 }
 
-.Login-box button{
+.go-to-join-page, .login-button{
   display: block;
   margin: 0 auto;
   font-size: 19px;
@@ -247,7 +254,13 @@ padding-right: 40px;
   cursor: pointer;
 }
 
-.Login-box button:hover{
+.go-to-join-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-to-join-page:hover, .login-button:hover{
   background-color: #194033;
 }
 
@@ -276,4 +289,63 @@ padding-right: 40px;
   display: flex;
   justify-content: center;
   color: white;
+}
+
+/*찾기 form*/
+.id-pw-button{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 0 20%;
+}
+
+.id-pw-button span{
+  background-color: #28442d;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.id-form-container, .pw-form-container{
+  margin: 20px auto;
+  width: 95%;
+}
+
+.find-form-container input{
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+
+.find-to-login{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.find-to-login span{
+  margin-left: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.find-to-login span:hover{
+  text-decoration: underline;
+}
+
+.Login-box button{
+  display: block;
+  margin: 0 auto;
+  font-size: 19px;
+  color:white;
+  background-color: #79AE84;
+  width: 72%;
+  height: 6vh;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.Login-box button:hover{
+  background-color: #194033;
 }
