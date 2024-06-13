@@ -14,9 +14,10 @@ a{
   height: 8%;
   padding-left:10px;
 }
-.Login{
+#login{
   position: absolute;
   top:4%;
   right:4%;
   width:3%;
+  cursor: pointer;
 }

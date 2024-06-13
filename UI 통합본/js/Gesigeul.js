@@ -82,3 +82,4 @@ function addComment(event){
 
   commentInput.value= "";
 }
+
