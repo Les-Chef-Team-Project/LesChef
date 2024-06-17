@@ -1,10 +1,10 @@
 package com.example.LesChef.entity;
 
 import jakarta.persistence.Entity;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.sql.Blob;
+
 
 @Getter
 @Setter

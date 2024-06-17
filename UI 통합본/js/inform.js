@@ -44,10 +44,26 @@ const firsttext = document.querySelector('.comentbox:nth-of-type(1)');
       }else{
         cloneStar.setAttribute("src", "../img/레시피 아이콘/사용자빈별.png");
       }
-    })
+    });
 
 
     container.append(cloneBox);
     
     coment.value = "";
-  })
+  });
+
+
+// 해당 페이지 좋아요 클릭시 하트 변경
+
+  const heart = document.querySelector('#asideicon2');
+  let isHeartFilled = false; // 하트가 채워진 상태 여부를 기억할 변수
+  
+  heart.addEventListener('click', () => {
+      if (!isHeartFilled) {
+          heart.src = '../img/레시피 아이콘/하트100.png';
+          isHeartFilled = true;
+      } else {
+          heart.src = '../img/레시피 아이콘/하트빈100.png';
+          isHeartFilled = false;
+      }
+  });
