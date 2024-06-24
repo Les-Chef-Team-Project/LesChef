@@ -1,0 +1,8 @@
+insert into recipeCategory (koreanName, englishName, headImg, sortOne, sortTwo, sortThree)
+values ("한식", "korean", 이미지, "국/찌개", "밥/면", "반찬")
+insert into recipeCategory (koreanName, englishName, headImg, sortOne, sortTwo, sortThree)
+values ("일식", "japanese", 이미지, "국/전골", "면", "밥")
+insert into recipeCategory (koreanName, englishName, headImg, sortOne, sortTwo, sortThree)
+values ("중식", "chinese", 이미지, "튀김/찜", "면", "밥")
+insert into recipeCategory (koreanName, englishName, headImg, sortOne, sortTwo, sortThree)
+values ("양식", "western", 이미지, "스프/스튜", "면", "빵")
