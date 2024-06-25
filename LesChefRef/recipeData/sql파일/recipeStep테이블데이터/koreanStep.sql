@@ -15,9 +15,9 @@ values (7, 1, 7, "완성된 성게미역국을 그릇에 담고 밥과 함께 �
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (8, 2, 1, "곤드레는 깨끗이 씻어 4cm 길이로 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (9, 2, 2, "볼에 반죽 재료와 곤드레를 넣고 섞어주세요.", "(tip. 반죽에 전분을 넣어 만들면 반죽이 투명해져서 곤드레의 색감을 살릴 수 있어요.)", 이미지);
+values (9, 2, 2, "볼에 반죽 재료(부침가루 1컵, 물 1컵)와 곤드레를 넣고 섞어주세요.", "(tip. 반죽에 전분을 넣어 만들면 반죽이 투명해져서 곤드레의 색감을 살릴 수 있어요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (10, 2, 3, "볼에 양념장 재료를 넣어 섞어주세요.", null, 이미지);
+values (10, 2, 3, "볼에 양념장 재료(간장 1큰술, 맛술 1/2큰술, 식초 1작은술, 잘게 썬 양파 1큰술, 잘게 썬 홍고추 1/2큰술, 통깨 약간)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (11, 2, 4, "달군 팬에 약간의 기름을 두른 후 반죽을 올려 얇게 펼쳐주세요. 앞뒤로 노릇하게 구워주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -27,7 +27,7 @@ values (13, 3, 1, "불린 미역은 물에 30초 정도 데친 후 체에 밭쳐
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (14, 3, 2, "물기를 짠 후 먹기 좋은 크기로 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (15, 3, 3, "볼에 미역을 담은 후 양념 재료를 넣어 골고루 섞어주세요.", null, 이미지);
+values (15, 3, 3, "볼에 미역을 담은 후 양념 재료(식초 1/3컵, 설탕 2큰술, 국간장 1/2큰술, 소금 약간, 다진 마늘 1/2큰술)를 넣어 골고루 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (16, 3, 4, "오이는 얇게 슬라이스로 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -47,7 +47,7 @@ values (23, 4, 5, "냄비에 멸치다시마육수를 붓고 된장과 고추장
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (24, 5, 1, "김치는 꼭지를 붙인 채 3등분하여 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (25, 5, 2, "볼에 양념 재료를 넣고 섞어 양념장을 만들어주세요.", "(tip 김치의 숙성 정도에 따라 설탕을 가감해주세요.)", 이미지);
+values (25, 5, 2, "볼에 양념 재료(김치국물 1컵, 국간장 1큰술, 맛술 2큰술, 고춧가루 1큰술, 설탕 1큰술, 다진 마늘 1큰술, 후춧가루 약간)를 넣고 섞어 양념장을 만들어주세요.", "(tip 김치의 숙성 정도에 따라 설탕을 가감해주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (26, 5, 3, "목살은 큼직하게 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -63,7 +63,7 @@ values (31, 6, 1, "오이를 가늘게 채 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (32, 6, 2, "김치는 굵게 다져주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (33, 6, 3, "볼에 다진 김치와 양념재료를 넣고 섞어주세요.", null, 이미지);
+values (33, 6, 3, "볼에 다진 김치와 양념재료(고추장 2큰술, 식초 2큰술, 올리고당 2큰술, 간장 1큰술, 설탕 1큰술, 맛술 1큰술, 참기름 1큰술, 후추 약간)를 넣고 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (34, 6, 4, "끓는 물에 중면을 펼쳐 넣고 면끼리 달라붓지 않도록 저어주세요. 물이 끓어오르면 찬물을 2~3회 반복해서 부어 국수를 삶아주세요. 흐르는 찬물에 중면을 여러 번 씻어 전분기를 없애고 체반에 밭쳐 물기를 빼주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -75,7 +75,7 @@ values (37, 7, 1, "해감한 꼬막은 깨끗이 비벼 씻어주세요. 끓는 
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (38, 7, 2, "삶은 꼬막은 살만 발라주세요.", "(tip. 꼬막 삶은 물은 버리지 말고 해감이 덜 된 꼬막살을 씻어주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (39, 7, 3, "볼에 양념 재료를 넣어 섞어주세요.", null, 이미지);
+values (39, 7, 3, "볼에 양념 재료(간장 4큰술, 고춧가루 2큰술, 맛술 1큰술, 설탕 1작은술, 올리고당 1큰술, 생강즙 1큰술, 다진 마늘 1큰술, 참기름 1큰술, 깨소금 1작은술, 후춧가루 약간)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (40, 7, 4, "대파와 청고추는 송송 썰고, 홍고추는 반으로 갈라 씨를 뺀 후 얇게 썰어주세요. 양파는 잘게 다져주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -123,13 +123,13 @@ values (61, 10, 5, "부족한 간은 국간장과 액젓으로 맞춰주세요."
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (62, 10, 6, "맛있게 즐겨주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (63, 11, 1, "돼지고기는 먹기 좋은 크기로 썰고 고기 밑간 재료에 10분 정도 재워주세요.", null, 이미지);
+values (63, 11, 1, "돼지고기는 먹기 좋은 크기로 썰고 고기 밑간 재료(맛술 1/2큰술, 참기름 1작은술, 다진 마늘 1/2작은술, 후춧가루 약간)에 10분 정도 재워주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (64, 11, 2, "김치는 소를 털어 낸 후 한입 크기로 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (65, 11, 3, "양파는 채를 썰어주세요. 청양고추와 홍고추, 대파는 어슷하게 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (66, 11, 4, "볼에 양념 재료를 넣어 섞어주세요.", null, 이미지);
+values (66, 11, 4, "볼에 양념 재료(고춧가루 1큰술, 맛술 1큰술, 국간장 1/2큰술, 다진 마늘  ½큰술, 새우젓 1작은술, 후춧가루 약간)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (67, 11, 5, "냄비에 고추기름과 대파 반을 넣고 중약불에서 달달 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -147,9 +147,9 @@ values (73, 11, 11, "마지막에 홍고추, 청양고추, 대파를 넣고 달�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (74, 12, 1, "떡국용 떡은 찬물에 담갔다가 체에 밭쳐 물기를 빼주세요. 대파는 어슷하게 썰어주세요.", "(tip. 달걀은 약간의 소금을 넣고 풀어 지단 또는 달걀말이로 만들어주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (75, 12, 2, "쇠고기는 쇠고기 양념에 10분 정도 재웠다가 팬에 볶아 익혀주세요.", null, 이미지);
+values (75, 12, 2, "쇠고기는 쇠고기 양념(간장 1큰술, 다진 마늘 1작은술, 설탕 1작은술, 참기름 1큰술, 후추가루 약간)에 10분 정도 재웠다가 팬에 볶아 익혀주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (76, 12, 3, "냄비에 다시마물 5컵을 넣은 후 끓어오르면 떡국용 떡을 넣고, 떡이 익어 부드러워지면 국물양념 재료와 대파를 넣어 1분 정도 더 끓여주세요.", null, 이미지);
+values (76, 12, 3, "냄비에 다시마물 5컵을 넣은 후 끓어오르면 떡국용 떡을 넣고, 떡이 익어 부드러워지면 국물양념 재료(국간장 1/2큰술, 다진 마늘 1작은술, 소금 약간, 후추 약간)와 대파를 넣어 1분 정도 더 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (77, 12, 4, "그릇에 떡국을 담고 쇠고기, 대파, (지단 또는 달걀말이) 등을 기호에 따라 올려주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -161,7 +161,7 @@ values (80, 13, 3, "냄비에 들기름을 두르고 황태채를 넣어 달달 
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (81, 13, 4, "국물이 뽀얗게 우러나면 무를 넣어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (82, 13, 5, "무가 익으면 콩나물과 국물양념을 넣어 2분 정도 더 끓여주세요.", null, 이미지);
+values (82, 13, 5, "무가 익으면 콩나물과 국물양념(국간장 1/2큰술, 다진 마늘 1/2큰술, 새우젓 1/2큰술, 소금 약간, 후추 약간)을 넣어 2분 정도 더 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (83, 13, 6, "고추, 실파를 넣고 달걀물을 냄비가장자리에 살짝 둘러 부은 후 한소끔 끓여 불을 꺼주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -173,7 +173,7 @@ values (86, 14, 2, "무는 사방 3센치로 나박썰기하고, 대파는 반�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (87, 14, 3, "냄비에 다시마멸치육수와 무를 넣어 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (88, 14, 4, "무가 투명해지면 오징어와 양념 재료를 넣어 약 5분간 끓여주세요.", null, 이미지);
+values (88, 14, 4, "무가 투명해지면 오징어와 양념 재료(국간장 2큰술, 다진 마늘 1/2큰술, 소금 약간)를 넣어 약 5분간 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (89, 14, 5, "썰어 둔 채소를 넣어 한소끔 더 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -205,7 +205,7 @@ values (102, 17, 1, "표고버섯은 밑동 부분을 자르고 먹기 좋게 �
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (103, 17, 2, "양파는 채를 썰어주세요. 대파는 흰 부분과 푸른 부분을 분리한 후 가늘게 채를 썰어주세요.", "(tip. 대파의 속심 부분은 잘게 썰어 양념재료와 함께 섞어주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (104, 17, 3, "볼에 양념재료를 넣고 섞어주세요.", null, 이미지);
+values (104, 17, 3, "볼에 양념재료(간장 1과1/2큰술, 올리고당 1큰술, 맛술 1큰술, 설탕 1/2큰술, 참기름 1/2큰술, 후추가루 약간)를 넣고 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (105, 17, 4, "달군 팬에 식용유를 넉넉히 두르고 다진 마늘과 대파 흰 부분을 넣어 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -219,7 +219,7 @@ values (109, 18, 1, "양파는 채를 썰고, 스팸은 먹기 좋은 크기로 
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (110, 18, 2, "볼에 달걀을 풀어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (111, 18, 3, "볼에 소스 재료를 넣어 섞어주세요.", null, 이미지);
+values (111, 18, 3, "볼에 소스 재료(간장 2큰술, 설탕 1큰술, 물 2큰술, 맛술 1큰술)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (112, 18, 4, "달군 팬에 식용유를 두른 후 달걀을 넣어 스크램블을 만들고 접시에 덜어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -247,7 +247,7 @@ values (123, 19, 7, "완성된 달걀밥을 맛있게 즐겨주세요.", null, �
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (124, 20, 1, "쫄면은 가닥가닥 떼어 주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (125, 20, 2, "볼에 양념 재료를 넣어 섞어주세요.", "(tip. 만든 양념장은 냉장고에서 하루 정도 숙성하면 맛이 더 깊어져요.)", 이미지);
+values (125, 20, 2, "볼에 양념 재료(고추장 4큰술, 고춧가루 1큰술, 식초 4큰술, 설탕 1큰술, 올리고당 3큰술, 간장 1작은술, 다진 마늘 1작은술, 참기름 1큰술, 후춧가루 약간)를 넣어 섞어주세요.", "(tip. 만든 양념장은 냉장고에서 하루 정도 숙성하면 맛이 더 깊어져요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (126, 20, 3, "끓는물에 콩나물을 넣어 1분 정도 데쳐주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -271,7 +271,7 @@ values (135, 21, 2, "볼에 달걀을 넣어 풀고, 다른 볼에 국물 양념
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (136, 21, 3, "냄비에 멸치새우다시육수를 넣고 끓어오르면 감자와 양파를 넣어 2분 정도 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (137, 21, 4, "육수에 국물 양념 재료를 넣어 풀어주세요.", null, 이미지);
+values (137, 21, 4, "육수에 국물 양념 재료(고추장 2큰술, 고춧가루 1큰술, 된장 ½큰술, 국간장 1큰술, 다진 마늘 1큰술, 후춧가루 약간)를 넣어 풀어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (138, 21, 5, "칼국수 면의 밀가루를 털어 넣고 5분 정도 끓여주세요.", "(tip. 칼국수면의 밀가루를 물에 살짝 씻어 체에 밭쳐 만들거나 면을 따로 데친 후에 국물을 부어 만들면 국물이 탁해지지 않아요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -291,9 +291,9 @@ values (145, 22, 4, "맛살은 길게 반으로 잘라주세요.", null, 이미�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (146, 22, 5, "달군 팬에 기름을 두른 후 당근을 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (147, 22, 6, "달군 팬에 기름을 살짝 두른 후 판어묵을 볶다가 어묵 조림 재료를 넣어 물기가 없어질 때까지 졸여주세요.", null, 이미지);
+values (147, 22, 6, "달군 팬에 기름을 살짝 두른 후 판어묵을 볶다가 어묵 조림 재료(간장 1/2큰술, 맛술 1작은술, 설탕 1작은술, 올리고당 1/2큰술, 물 2큰술)를 넣어 물기가 없어질 때까지 졸여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (148, 22, 7, "볼에 밥과 밥 양념 재료를 넣어 골고루 섞어주세요.", null, 이미지);
+values (148, 22, 7, "볼에 밥과 밥 양념 재료(소금 1/2작은술, 참기름 1큰술, 통깨 약간)를 넣어 골고루 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (149, 22, 8, "김발에 김을 올리고 밥을 고르게 편 후 청상추와 깻잎을 깔아주세요. 준비한 재료를 올려 김밥을 단단하게 말아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -311,7 +311,7 @@ values (155, 23, 2, "대파와 쪽파는 송송 썰어주세요.", null, 이미�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (156, 23, 3, "달군 팬에 기름을 두르고 대파를 1~2분 정도 볶다가 대패삼겹살을 넣어 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (157, 23, 4, "양념재료는 모두 섞어주세요.", null, 이미지);
+values (157, 23, 4, "양념재료(진간장 1/2큰술, 설탕 1/2큰술, 올리고당 1/2큰술, 고춧가루 1/2큰술, 고추장 1큰술, 참기름 1큰술, 깍두기 국물 4큰술)는 모두 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (158, 23, 5, "대패삼겹살이 반쯤 익으면 깍두기와 양념재료를 넣어 3~4분 정도 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -323,7 +323,7 @@ values (161, 23, 8, "그릇에 깍두기 볶음밥을 담고, 통깨와 실파, 
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (162, 24, 1, "쪽파는 얇게 송송 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (163, 24, 2, "볼에 국수 양념 재료를 넣어 섞어주세요.", null, 이미지);
+values (163, 24, 2, "볼에 국수 양념 재료(간장 2큰술, 설탕 1큰술, 올리고당 1큰술, 참기름 1큰술, 다진 마늘 1/2작은술, 깨소금 1큰술)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (164, 24, 3, "끓는 물에 소면을 펼쳐 넣고 젓가락으로 저어 면끼리 달라붙지 않도록 저어주고 물이 끓어오르면 찬물 반 컵을 2~3회 반복해서 부어 국수를 삶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -333,9 +333,9 @@ values (166, 24, 5, "큰 볼에 삶은 국수와 국수 양념장을 넣고 골�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (167, 24, 6, "그릇에 간장비빔국수를 담은 후 달걀노른자를 가운데 얹고 송송 썬 쪽파와 김가루, 통깨를 뿌려 맛있게 즐겨주세요.", "(tip. 긴 젓가락이나 조리용 집게로 면을 넉넉하게 잡아서 돌돌 말아주세요. 접시에 흐트러지지 않게 살살 젓가락을 빼주며 길게 담거나, 세워서 동그랗게 둥지처럼 담으면 면을 예쁘게 담을 수 있답니다)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (168, 25, 1, "냉면육수와 국물양념 재료를 모두 섞어 30분 정도 냉동실에 넣어 살얼음이 얼도록 해주세요.", null, 이미지);
+values (168, 25, 1, "냉면육수와 국물양념 재료(냉면육수 900ml, 김치국물 6큰술, 식초 1큰술, 설탕 1과1/2큰술, 참기름 약간)를 모두 섞어 30분 정도 냉동실에 넣어 살얼음이 얼도록 해주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (169, 25, 2, "김치는 먹기 좋은 크기로 썰어 김치 양념재료를 넣어 버무려주세요.", null, 이미지);
+values (169, 25, 2, "김치는 먹기 좋은 크기로 썰어 김치 양념재료(올리고당 1/2큰술, 설탕 1큰술, 참기름 1/2큰술)를 넣어 버무려주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (170, 25, 3, "오이는 채썰고, 청홍고추는 송송 썰어주세요. 삶은 달걀은 이등분으로 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -351,7 +351,7 @@ values (175, 26, 2, "체에 받쳐 물기를 빼주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (176, 26, 3, "먹기 좋게 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (177, 26, 4, "볼에 양념재료를 넣고 섞어주세요.", null, 이미지);
+values (177, 26, 4, "볼에 양념재료(고추장 2큰술, 올리고당 2큰술, 맛술 2큰술, 마요네즈 2큰술, 설탕 1/2큰술, 간장 1큰술, 고운 고춧가루 1큰술, 다진마늘 1/2큰술, 물 1/4컵, 후추 약간)를 넣고 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (178, 26, 5, "달군 팬에 식용유를 두르고 중약불에서 양념재료를 넣은 후, 끓어오르면 약한불로 줄여 오징어채를 넣어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -363,7 +363,7 @@ values (181, 27, 1, "통조림 참치는 체에 밭쳐 기름을 빼주세요.",
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (182, 27, 2, "양파는 슬라이스하고 대파는 어슷하게 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (183, 27, 3, "달군 팬에 기름을 두른 후 양파, 대파, 김치, 설탕을 넣어 3분 정도 볶다가 나머지 양념 재료를 넣어 볶아주세요.", null, 이미지);
+values (183, 27, 3, "달군 팬에 기름을 두른 후 양파, 대파, 김치, 설탕을 넣어 3분 정도 볶다가 나머지 양념 재료(간장 1큰술, 설탕 1큰술, 소금 약간, 후춧가루 약간)를 넣어 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (184, 27, 4, "참치를 넣어 가볍게 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -387,7 +387,7 @@ values (193, 29, 2, "양파는 굵게 채를 썰어주세요. 청양고추와 �
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (194, 29, 3, "대파도 어슷하게 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (195, 29, 4, "볼에 양념 재료를 넣어 섞어주세요.", null, 이미지);
+values (195, 29, 4, "볼에 양념 재료(간장 2큰술, 고춧가루 2큰술, 고추장 1/2큰술, 올리고당 1큰술, 다진 마늘 1큰술, 설탕 1/2큰술, 후춧가루 약간, 식용유 1/2큰술, 생강가루 1/2작은술, 참치액젓 1/2큰술)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (196, 29, 5, "두부는 넓적하고 길게 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -405,13 +405,13 @@ values (202, 30, 2, "소시지는 두께 0.4cm로 길게 어슷썰고 통조림 
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (203, 30, 3, "팬에 식용유를 두르고 양파, 대파, 양배추를 넣고 2분간 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (204, 30, 4, "소시지와 통조림 햄, 베이크드빈스, 양념 재료를 넣어 2분간 볶아주세요.", null, 이미지);
+values (204, 30, 4, "소시지와 통조림 햄, 베이크드빈스, 양념 재료(물 4큰술, 케첩 2큰술, 올리고당 1큰술, 다진 마늘 1큰술, 설탕 1큰술, 고춧가루 약 1큰술, 진간장 1큰술, 후춧가루 약간)를 넣어 2분간 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (205, 30, 5, "슬라이스 치즈를 넣고 1분간 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (206, 30, 6, "완성된 부대볶음을 접시에 담고 통깨를 뿌려 맛있게 즐겨주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (207, 31, 1, "명엽채는 먹기 좋은 길이로 잘라주세요. 볼에 양념재료를 넣고 섞어주세요.", null, 이미지);
+values (207, 31, 1, "명엽채는 먹기 좋은 길이로 잘라주세요. 볼에 양념재료(간장 1/2큰술, 올리고당 2큰술, 맛술 2큰술, 마요네즈 1큰술, 식용유 1큰술, 다진마늘 1/2큰술, 후추 약간)를 넣고 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (208, 31, 2, "마른 팬에 명엽채를 넣고, 약한불에서 2분 정도 보슬보슬하게 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -423,13 +423,13 @@ values (211, 31, 5, "불을 끄고 참기름과 통깨를 뿌려주세요.", nul
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (212, 31, 6, "밑반찬으로 맛있게 즐겨주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (213, 32, 1, "냄비에 물 10컵과 고기삶는물 재료를 넣고, 물이 끓어 오르면 삼겹살을 넣어 1시간 정도 삶아주세요.", null, 이미지);
+values (213, 32, 1, "냄비에 물 10컵과 고기삶는물 재료(된장 1큰술, 대파(파란부분) 1/2대, 양파 1/2개, 통마늘 4쪽, 생강(마늘 1쪽 사이즈) 1개 통후추 10알, 월계수잎 3장)를 넣고, 물이 끓어 오르면 삼겹살을 넣어 1시간 정도 삶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (214, 32, 2, "먹기 좋게 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (215 32, 3, "무는 큼직하게 썰고, 꽈리고추는 포크로 두 번 정도 찍어 준비해주세요. 대파는 곱게 채썰어 찬물에 담갔다가 물기를 제거해주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (216, 32, 4, "냄비에 삼겹살과 조림소스를 넣고 20분 정도 끓이다가, 무를 넣어 30분 정도 중불에서 끓여주세요.", null, 이미지);
+values (216, 32, 4, "냄비에 삼겹살과 조림소스(물 5컵, 간장 3큰술, 설탕 2큰술, 맛술 2큰술, 굴소스 1큰술, 다진마늘 1큰술, 후추 약간)를 넣고 20분 정도 끓이다가, 무를 넣어 30분 정도 중불에서 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (217, 32, 5, "무가 익으면 삶은 달걀과 꽈리고추를 넣어 10분 정도 약불에서 졸여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -443,21 +443,21 @@ values (221, 33, 3, "꼬치에 떡볶이떡과 비엔나소시지를 번갈아 �
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (222, 33, 4, "달군 팬에 기름을 넉넉히 두르고 소시지떡꼬치를 넣어 앞뒤로 노릇하게 구워 주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (223, 33, 5, "접시에 소시지떡꼬치를 담고 소스를 뿌려주세요.", "(tip. 기호에 따라 머스터드 소스를 함께 뿌려 드셔도 맛있답니다.)", 이미지);
+values (223, 33, 5, "접시에 소시지떡꼬치를 담고 소스(케첩 3큰술, 올리고당 3큰술, 고추장 1큰술, 설탕 1큰술, 간장 1작은술, 후춧가루 약간)를 뿌려주세요.", "(tip. 기호에 따라 머스터드 소스를 함께 뿌려 드셔도 맛있답니다.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (224, 34, 1, "깨끗이 씻은 양배추는 심지를 잘라내고 잎은 얇게 채를 썰어 주세요.", "(tip. 양배추 심지도 채를 썰어 함께 사용해 주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (225, 34, 2, "껍질을 벗긴 감자를 얇게 채를 썰어 주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (226, 34, 3, "넓은 볼에 손질한 재료를 넣고 반죽 재료를 넣어 골고루 섞어주세요.", null, 이미지);
+values (226, 34, 3, "넓은 볼에 손질한 재료를 넣고 반죽 재료(찹쌀가루 1큰술, 부침가루 2큰술, 소금 1작은술, 후춧가루 약간)를 넣어 골고루 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (227, 34, 4, "팬에 기름을 두른 후 반죽을 넣어 두툼하게 펼쳐 주세요. 중약불에서 골고루 익도록 뚜껑을 닫아 2~3분간 구워주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (228, 34, 5, "부침개를 뒤집어 반대쪽도 노릇하게 익혀주세요. 그릇에 담아 맛있게 즐겨주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (229, 35, 1, "떡볶이떡이 단단할 때는 미지근한 물에 담가두거나, 살짝 데친 후 찬물에 담가 말랑말랑하게 준비해서 떡 양념에 버무려주세요. 표고버섯은 기둥을 떼어 편으로 썰고, 파프리카와 당근은 먹기 좋은 크기로 잘라주세요.", null, 이미지);
+values (229, 35, 1, "떡볶이떡이 단단할 때는 미지근한 물에 담가두거나, 살짝 데친 후 찬물에 담가 말랑말랑하게 준비해서 떡 양념(간장 1큰술, 올리고당 1큰술, 참기름 1큰술)에 버무려주세요. 표고버섯은 기둥을 떼어 편으로 썰고, 파프리카와 당근은 먹기 좋은 크기로 잘라주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (230, 35, 2, "쇠고기와 표고버섯은 볼에 담고 양념에 버무려서 준비해주세요.", null, 이미지);
+values (230, 35, 2, "쇠고기와 표고버섯은 볼에 담고 양념(간장 2큰술, 설탕 1큰술, 다진 마늘 1작은술, 참기름 1큰술, 후추 약간)에 버무려서 준비해주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (231, 35, 3, "달군 팬에 기름을 두르고 쇠고기, 표고버섯, 당근을 넣어 2분간 볶다가 떡볶이떡과 파프리카를 넣고 1분간 더 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -473,19 +473,19 @@ values (236, 36, 4, "달군 팬에 올리브유를 두른 후 다진 마늘, 양
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (237, 36, 5, "토마토소스와 생크림, 우유를 넣어 끓여주세요.", "(tip. 기호에 따라 고춧가루의 양을 조절하여 맵기를 조절해 주세요.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (238, 36, 6, "떡볶이 떡과 당면, 나머지 양념 재료를 넣어 5분 정도 끓여주세요.", null, 이미지);
+values (238, 36, 6, "떡볶이 떡과 당면, 나머지 양념 재료(올리고당 1큰술, 카레가루 1작은술, 소금 약간, 후춧가루 약간)를 넣어 5분 정도 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (239, 36, 7, "그릇에 담은 후 파마산 치즈 가루를 뿌려 맛있게 즐겨주세요.", "(tip. 파마산 치즈가루 대신 피자 치즈나 슬라이스 치즈를 넣어 드셔도 좋답니다.)(tip. 기호에 따라 파스타 면을 삶아 함께 볶아 드셔도 맛있게 드실 수 있답니다.)", 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (240, 37, 1, "아귀는 주둥이와 아가미, 내장을 제거한 후 먹기 좋은 크기로 잘라서 깨끗이 씻고 핏기를 빼주세요. 미더덕은 소금물에 흔들어 씻은 후 체에 밭쳐 물기를 빼 주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (241, 37, 2, "냄비에 아귀가 잠길 정도의 물과 아구 밑간 재료를 넣고 물이 끓으면 아귀를 넣고 3분 정도 데친 후 체에 밭쳐 물기를 빼주세요.", null, 이미지);
+values (241, 37, 2, "냄비에 아귀가 잠길 정도의 물과 아구 밑간 재료(청주 4큰술, 소금 1/2큰술)를 넣고 물이 끓으면 아귀를 넣고 3분 정도 데친 후 체에 밭쳐 물기를 빼주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (242, 37, 3, "콩나물은 다듬어 씻은 후 끓는 물에 3분 정도 데치고 체에 밭쳐 물기를 빼주세요. 대파는 길이로 반 가르고 6센치 길이로 자르고 홍고추와 청양고추는 어슷하게 썰고, 미나리는 6센치 길이로 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (243, 37, 4, "볼에 양념장 재료를 넣고 섞어 양념장을 만들어주세요.", null, 이미지);
+values (243, 37, 4, "볼에 양념장 재료(고춧가루 6큰술, 맛술 3큰술, 간장 2큰술, 참치액젓 2큰술, 설탕 1큰술, 다진 마늘 3큰술, 구운 소금 1/4작은술, 생강가루 약간, 후춧가루 약간)를 넣고 섞어 양념장을 만들어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (244, 37, 5, "녹말물 재료를 섞어 녹말물을 만들어주세요.", null, 이미지);
+values (244, 37, 5, "녹말물 재료(녹말가루 2큰술, 육수 4큰술)를 섞어 녹말물을 만들어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (245, 37, 6, "냄비에 멸치새우다시마 육수를 넣고 끓이다가 아귀, 미더덕, 양념장을 넣어 3분 정도 끓여주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -497,7 +497,7 @@ values (248, 37, 9, "불을 약한 불로 줄이고 미나리를 넣어 가볍�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (249, 37, 10, "접시에 아귀찜을 담고 통깨를 뿌려 주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (250, 38, 1, "닭은 껍질을 제거하고, 우유에 30분 정도 담갔다가 물에 헹궈 먹기 좋은 크기로 잘라주세요. 볼에 양념장 재료를 넣고 고루 섞은 후 닭을 넣어 30분 정도 재워주세요.", null, 이미지);
+values (250, 38, 1, "닭은 껍질을 제거하고, 우유에 30분 정도 담갔다가 물에 헹궈 먹기 좋은 크기로 잘라주세요. 볼에 양념장 재료(고추장 3큰술, 고춧가루 2큰술, 맛술 2큰술, 간장 1과1/2 큰술, 설탕 1큰술, 다진 마늘 1큰술, 올리고당 2큰술, 카레가루 1큰술, 생강즙 1큰술, 참기름 1큰술, 후추 약간, 깨 약간)를 넣고 고루 섞은 후 닭을 넣어 30분 정도 재워주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (251, 38, 2, "양파는 채를 썰고 고구마, 양배추, 깻잎은 한입 크기로 썰어두고 대파와 청양고추, 홍고추는 어슷하게 썰어 준비해주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
@@ -511,7 +511,7 @@ values (255, 39, 1, "순대는 한입크기로 잘라주세요.", null, 이미�
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (256, 39, 2, "양파, 당근, 양배추는 굵게 채를 썰어주세요. 깻잎은 얇게 채를 썰고 대파와 청양고추는 어슷하게 썰어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
-values (257, 39, 3, "볼에 양념소스 재료를 넣어 섞어주세요.", null, 이미지);
+values (257, 39, 3, "볼에 양념소스 재료(고추장 3큰술, 맛술 2큰술, 고춧가루 1큰술, 간장 1큰술, 설탕 1큰술, 다진마늘 1큰술, 참기름 1큰술, 후춧가루 약간, 물 1/3컵)를 넣어 섞어주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
 values (258, 39, 4, "팬에 약간의 식용유를 두르고 양파, 당근, 양배추를 넣어 볶다가 순대와 양념소스를 넣어 3분 정도 볶아주세요.", null, 이미지);
 insert into recipeStep (recipeStepId, recipeId, stepNum, stepWay, stepTip, stepImg)
