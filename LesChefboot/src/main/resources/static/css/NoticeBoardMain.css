@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
   background-color: #F8A16E;
   position: relative;
   list-style: none;
-  margin: 30px 50px 70px 0;
+  margin: 4vh 4vw 0 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden; /* 추가: li 요소의 크기를 벗어나지 않도록 */
 }
@@ -109,7 +109,7 @@ body::-webkit-scrollbar {
   background-color: #F8A16E;
   position: relative;
   list-style: none;
-  margin: 15vh 4vw 0 0;
+  margin: 12vh 4vw 0 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden; /* 추가: li 요소의 크기를 벗어나지 않도록 */
 }
@@ -185,3 +185,7 @@ dd {
   padding: 0 10px;
   margin-right: 1vw;
 }
+
+
+
+

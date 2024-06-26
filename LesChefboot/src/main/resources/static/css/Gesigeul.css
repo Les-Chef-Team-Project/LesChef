@@ -17,7 +17,7 @@ button{
   background-image: url("../img/img/boardmain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 28vh;
   text-align: center;
   position : relative;
 }
@@ -25,27 +25,27 @@ button{
 .gesiTopImg span{
   position: inherit;
   top: 25%;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bold;
   color: #fff;
   text-shadow: 2px 2px 7px #000;
 }
 .BeforePage{
-  margin-left:19%;
+  margin-left:21%;
   cursor: pointer;
 }
 /*===============================================================*/
 /*게시글 제목 ~ 이전, 다음페이지버튼*/
 .gesiBox{
   text-align: center;
-  padding:8vh 20vw 0;
+  padding:1vh 21vw 0;
 }
 .gesiTitle{
-  font-size:3vw;
+  font-size:2.8vw;
 }
 /*게시글 메인 이미지*/
 .gesiMainImg{
-  width:100%;
+  width:98%;
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -59,11 +59,11 @@ button{
   border-radius: 5px;
 }
 .editDelete:first-of-type{
-  margin-left:90%;
+  margin-left:87%;
 }
 .gesiContent{
   padding-top:8%;
-  font-size:2vw;
+  font-size:1.5vw;
   font-weight: bold;
   font-family: 'gmarket';
   text-align: center;
@@ -83,13 +83,11 @@ button{
   align-items: center;
 }
 .gesiWriterNameContent1 img{
-  width:15%;
-  height: 15%;
+  width:12%;
   border-radius:50%;
 }
 .gesiWriterNameContent2 img{
-  width:40%;
-  height: 40%;
+  width:30%;
 }
 .gesiWriterNameContent1,.gesiWriterNameContent2 span{
   font-size:2vw;
@@ -110,8 +108,8 @@ button{
 .prevNextBtnBox button{
   border-radius:50px;
   border:0px;
-  width:15vw;
-  height: 10vh;
+  width:13vw;
+  height: 8vh;
   background: #FEBEB0;
   box-shadow:0px 2px 3px  #f0d1d1;
 }
@@ -182,7 +180,7 @@ textarea{
 }
 
 .commentBox{
-  padding:8vh 20vw 0;
+  padding:4vh 27vw 0;
   background-color: #FEBEB0;
 }
 .commentInput{
@@ -190,11 +188,9 @@ textarea{
   font-size: 20px;
   color: #fff;
   background-color: #FEBEB0;
-
-
   /*테스트*/
   border: 1px solid black;
-  margin-top: 40px;
+  margin: 36px 0px 5px;
 
 }
 .commentInput:focus{

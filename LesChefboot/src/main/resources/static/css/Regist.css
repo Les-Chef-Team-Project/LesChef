@@ -30,12 +30,12 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 20px 20px 200px;
+  padding: 0 2% 2% 14%;
 }
 
 .menu {
   text-align: left;
-  font-size: 50px;
+  font-size: 2.5vw;
   color: white;
   font-weight: bold;
   margin-top: 200px;
@@ -43,40 +43,40 @@ body::-webkit-scrollbar {
 }
 
 .menu p {
-  margin: 10px 0;
+  margin: 1% 0;
 }
 
 .menu span {
-  font-size: 14px;
-  margin-left: 10px;
+  font-size: 1vw;
+  margin-left: 1%;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 200px;
-  margin-left: 25px;
+  width: 10%;
+  height: 10%;
+  margin-bottom: 15%;
+  margin-left: 2.5%;
 }
 
 .logo img{
-  width: 250px;
+  width: 12vw;
 }
 
 .right {
   width: 100%;
-  height: 100%;
-  padding: 47px;
+  height: auto;
+  padding: 3%;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 20px;  
+  margin-bottom: 2%;
 }
 
 .lock {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1%;
+  right: 1%;
 }
 a {
   text-decoration: none;
@@ -88,13 +88,13 @@ form {
 }
 
 label {
-  margin: 10px 0 5px 0;
+  margin: 1% 0 0.5% 0;
   font-weight: bold;
 }
 
 select {
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 1%;
+  padding: 1vw;
   border: 1px solid #ccc;
   border-radius: 5px;
   align-items: flex-start;
@@ -115,10 +115,10 @@ input {
 }
 
 .rigcontainer {
-  margin-right:180px;
-  width: 1000px;
-  height: 800px;
-  margin-top: 130px;
+  margin-right:10%;
+  width: 57%;
+  height: 70vh;
+  margin-top: 10%;
   overflow: auto;
 }
 .rigcontainer::-webkit-scrollbar {
@@ -137,9 +137,9 @@ input {
   box-shadow: inset 0px 0px 1px white;
 }
 .recipe-image img {
-  width: 300px;
+  width: 90%;
   height: auto;
-  margin: 39px;
+  margin: 37px;
   margin-top: 2px;
 }
 .info1 {
@@ -215,4 +215,8 @@ button {
 
 button:hover {
   background-color: #e69550;
+}
+
+#login{
+  cursor: pointer;
 }

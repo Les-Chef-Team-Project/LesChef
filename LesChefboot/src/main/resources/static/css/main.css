@@ -165,6 +165,7 @@ input:focus{
 
 #left-sidebar img{
   width: 48px;
+  cursor: pointer;
 }
 
 #menu:hover{
@@ -182,7 +183,7 @@ input:focus{
 #select-menu a{
   display: inline-block;
   font-weight: bold;
-  font-size: 4vh;
+  font-size: 3.5vh;
   color: rgb(233, 233, 233);
   text-decoration: none;
 }
@@ -197,7 +198,7 @@ input:focus{
   z-index: 2;
 }
 
-.loginModal{
+.loginModal, .findModal{
   position: fixed;
   top: 0;
   left: 0;
@@ -256,12 +257,11 @@ input:focus{
   text-decoration: none;
   color:white;
   position: absolute;
-  right: 6%;
+  right: 9%;
   margin-top: 5px;
+  cursor: pointer;
 }
-#FindIdPw:visited{
-  text-decoration: none;
-}
+
 #Login-box-Logo{
   display: flex;
   justify-content: center;
@@ -316,4 +316,47 @@ input:focus{
   display: flex;
   justify-content: center;
   color: white;
+}
+
+
+/*찾기 form*/
+.id-pw-button{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 0 20%;
+}
+
+.id-pw-button span{
+  background-color: #28442d;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.id-form-container, .pw-form-container{
+  margin: 20px auto;
+  width: 95%;
+}
+
+.find-form-container input{
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+
+.find-to-login{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.find-to-login span{
+  margin-left: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.find-to-login span:hover{
+  text-decoration: underline;
 }
