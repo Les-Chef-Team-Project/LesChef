@@ -6,15 +6,15 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Entity
-@Getter
-@Setter
-public class RecipeComment {
-    private Long recipeCommentId;
-    private Recipe recipe;
-    private User user;
-    private String content;
-    private Date writeTime;
-    private int starNum;
-    private String tag;
-}
+//@Entity
+//@Getter
+//@Setter
+//public class RecipeComment {
+//    private Long recipeCommentId;
+//    private Recipe recipe;
+//    private User user;
+//    private String content;
+//    private Date writeTime;
+//    private int starNum;
+//    private String tag;
+//}

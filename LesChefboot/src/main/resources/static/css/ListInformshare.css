@@ -98,6 +98,10 @@
 #asideicon2{
   padding-left: 30px;
 }
+.design{
+  all:unset;
+  cursor: pointer;
+}
 
 
 /* 메인 사진 아랫부분 */
